@@ -1,0 +1,20 @@
+{
+  "release": "V2.32_RESEARCH",
+  "purpose": "Read-only terminal permission diagnostics; V231 trade policy unchanged",
+  "zip": "ForexVPS_V232_Tester_Permission_Diagnostics.zip",
+  "sha256": "314613fb41a7bfee247d82f7276d2ac925651a71f49da0d4b40a2d6b278fab2a",
+  "entries": 97,
+  "crc_and_manifest_verified": true,
+  "source_tests": 25,
+  "extracted_bundle_tests": 25,
+  "v231_regression": 20,
+  "v229_root_regression": 375,
+  "v229_supervisor_regression": 76,
+  "skips": 0,
+  "all_41_includes_preserved": true,
+  "metaeditor_compiled": false,
+  "ex4_included": false,
+  "mt4_order_backtest_completed": false,
+  "profitability_validated": false,
+  "baseline_commit": "25b6f789cd43d049bf2a184dd96cb5879c8263b5"
+}
