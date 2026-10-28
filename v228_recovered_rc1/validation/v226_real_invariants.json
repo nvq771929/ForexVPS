@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "fixed_price_features": {
+    "common_pilot_snapshots": 824,
+    "comparable_snapshots": 806,
+    "unavailable_snapshots": [
+      1776119700000,
+      1776123300000,
+      1776140700000,
+      1776141900000,
+      1776144900000,
+      1776145500000,
+      1776206400000,
+      1776211500000,
+      1776212400000,
+      1776212700000,
+      1776213000000,
+      1776222600000,
+      1776230700000,
+      1776232200000,
+      1776287100000,
+      1776290400000,
+      1776292500000,
+      1776293700000
+    ],
+    "feature_mismatches": 0,
+    "same_native_publications_checked": 9,
+    "observer_age_not_used": true
+  },
+  "native_checkpoint_restart_on_real_corpora": [
+    {
+      "source": "m5_history.json.gz",
+      "bars": 36077,
+      "source_sha256": "79976d1eea271862fe5f678dee5bd05112e070d64e2e827c1d37024c7a559c01",
+      "restored": 1,
+      "exact": 1,
+      "blocked": 0,
+      "status": "COLLECTING",
+      "resume": "CHECKPOINT_PLUS_TAIL",
+      "count": 36077,
+      "checkpoints": 2
+    },
+    {
+      "source": "closed_m5.json.gz",
+      "bars": 9536,
+      "source_sha256": "d423b9c56da76bf61c816ceae64d6654bcfcd2a197e854904077c8e6afc6b14d",
+      "restored": 1,
+      "exact": 1,
+      "blocked": 0,
+      "status": "COLLECTING",
+      "resume": "CHECKPOINT_PLUS_TAIL",
+      "count": 9536,
+      "checkpoints": 2
+    }
+  ],
+  "native_metaeditor_compiled": false,
+  "profits_validated": false
+}

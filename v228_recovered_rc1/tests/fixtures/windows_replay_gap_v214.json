@@ -1,0 +1,101 @@
+{
+  "source": "Uploaded V214 Windows journal, two observed missing sequences; not OS error evidence",
+  "rows": [
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4436",
+      "event_type": "TICK",
+      "time_ms_estimated": "1792372496984",
+      "server_time_seconds": "1792372496",
+      "bid": "1.12276",
+      "ask": "1.12276",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4437",
+      "event_type": "TICK",
+      "time_ms_estimated": "1792372497031",
+      "server_time_seconds": "1792372497",
+      "bid": "1.12278",
+      "ask": "1.12278",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4439",
+      "event_type": "TIMER",
+      "time_ms_estimated": "1792372498484",
+      "server_time_seconds": "0",
+      "bid": "0.00000",
+      "ask": "0.00000",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4440",
+      "event_type": "TIMER",
+      "time_ms_estimated": "1792372499484",
+      "server_time_seconds": "0",
+      "bid": "0.00000",
+      "ask": "0.00000",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4708",
+      "event_type": "TICK",
+      "time_ms_estimated": "1792372676953",
+      "server_time_seconds": "1792372676",
+      "bid": "1.12266",
+      "ask": "1.12266",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4709",
+      "event_type": "TIMER",
+      "time_ms_estimated": "1792372677625",
+      "server_time_seconds": "0",
+      "bid": "0.00000",
+      "ask": "0.00000",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4711",
+      "event_type": "TIMER",
+      "time_ms_estimated": "1792372678625",
+      "server_time_seconds": "0",
+      "bid": "0.00000",
+      "ask": "0.00000",
+      "shadow_mode": "1"
+    },
+    {
+      "schema": "2",
+      "logic_version": "2026101707",
+      "session": "1792394583_390931125_134213038653238249",
+      "sequence": "4712",
+      "event_type": "TICK",
+      "time_ms_estimated": "1792372679469",
+      "server_time_seconds": "1792372679",
+      "bid": "1.12266",
+      "ask": "1.12266",
+      "shadow_mode": "1"
+    }
+  ]
+}

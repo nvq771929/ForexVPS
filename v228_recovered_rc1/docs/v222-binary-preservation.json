@@ -1,0 +1,118 @@
+{
+  "baseline": "V2.21",
+  "normalization": "V222/v222 and 2.22 labels to V221/v221 and 2.21; Forex modules excluded",
+  "files": [
+    {
+      "file": "CandidateDiagnostics.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Validation.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Episode.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "AdvancedLearning.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Decision.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Candle.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Contract.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Context.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "History.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Types.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "UI.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Structure.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Outcomes.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Trend.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "RuntimeDiagnostics.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Volatility.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Momentum.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Forecast.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "MarketContext.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "ManualSignals.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Clock.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Regime.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Origin.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "SlotDiagnostics.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "DemoLearning.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Journal.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "TesterDashboard.mqh",
+      "normalized_equal": true
+    },
+    {
+      "file": "Market.mqh",
+      "normalized_equal": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "contract": "V225_EMBEDDED_BUILD_RECEIPT_V1",
+  "files_sha256": {
+    "mt4/Experts/EURUSD_M5_Intelligence_V225.mq4": "af6b9652e5f92223b8ac29ef23079ae1825139046448f985c81c0dbdfdb0be8e",
+    "mt4/Include/EURUSD_M5_V224/EmbeddedContext.mqh": "17e481fef3ae77eb749111771acf60ef033c5d1ea24b935f387f53401b8a2b77",
+    "mt4/Include/EURUSD_M5_V224/EmbeddedObserver.mqh": "ee435c4b98cc437ac5e902968c0fbe0af12045dc9761a39f760dbec2ea4f8695",
+    "LearningSupervisor/assistant/context/engine.py": "0c2fa14d09c04d9d61b5e73675e78c3d7694d86b1823422d1c3349a366c6d19b",
+    "tests/embedded_context_runner.cpp": "be459643b786acaf634d45a47c1a650bd2b1443bf5acea78ac77043b34d12156",
+    "validation/embedded_parity.json": "990f347c1f741e1b5a29d975881f6cd6eaa779d3c0e5b4ab09a28b571e06653c"
+  },
+  "parity_bars": 45613,
+  "parity_exact_discrete_values": 1528342,
+  "native_metaeditor_compiled": false,
+  "trained_trade_model_included": false,
+  "embedded_inference_requires_external_process": false,
+  "external_deep_training_still_required": true,
+  "embedded_signal_effects": false
+}

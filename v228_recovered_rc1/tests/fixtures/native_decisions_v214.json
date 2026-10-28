@@ -1,0 +1,149 @@
+{
+  "baseline": "Frozen V214 source; real adapter under C++ shim, synthetic cases only",
+  "cases": [
+    {
+      "setup": "SR1",
+      "direction": 1,
+      "mode": 0,
+      "records": 6,
+      "native_sha256": "c6f9b5d1c8b301ea5fc8ed6f242cfba0fb979a2777d10c4a59485bb34a9a5c64",
+      "signals": 1
+    },
+    {
+      "setup": "SR1",
+      "direction": 1,
+      "mode": 9,
+      "records": 11,
+      "native_sha256": "ca80b04e30d119c26f30dfb4d652f12c6c75bf28eaeb0a557c3f3e89a7643d95",
+      "signals": 0
+    },
+    {
+      "setup": "SR1",
+      "direction": 1,
+      "mode": 18,
+      "records": 6,
+      "native_sha256": "1a205c5fef4a9d0eb4d5247ea1bbb51c119435c8e71669fc6523df7b1c56b89e",
+      "signals": 1
+    },
+    {
+      "setup": "SR1",
+      "direction": -1,
+      "mode": 0,
+      "records": 6,
+      "native_sha256": "849647312433b2ad3b567c1aaa3bd3dd1b25be231ae479e4501d64e07b9f4b83",
+      "signals": 1
+    },
+    {
+      "setup": "SR1",
+      "direction": -1,
+      "mode": 9,
+      "records": 11,
+      "native_sha256": "51c565781bbfc009950130e9a4dc673d13a5b80dd74738e3a60e8dba5c5dc93e",
+      "signals": 0
+    },
+    {
+      "setup": "SR1",
+      "direction": -1,
+      "mode": 18,
+      "records": 6,
+      "native_sha256": "a35c0b339e04ac64d4cd89aa9815ca4e8472ce80c7c9ba32370c28ea605f10d2",
+      "signals": 1
+    },
+    {
+      "setup": "TP1",
+      "direction": 1,
+      "mode": 0,
+      "records": 6,
+      "native_sha256": "6536856188daf002b0a38d292f89a85d8c9c55267d9b04c7795784956e3217f9",
+      "signals": 1
+    },
+    {
+      "setup": "TP1",
+      "direction": 1,
+      "mode": 9,
+      "records": 11,
+      "native_sha256": "b7291187de52109a285d1871843c83c57bf5e365c1640f602c8b951f16c3df3b",
+      "signals": 0
+    },
+    {
+      "setup": "TP1",
+      "direction": 1,
+      "mode": 18,
+      "records": 6,
+      "native_sha256": "eb52b905fe62472854693d45848753c697574f930cce8273597c8d02e1f24682",
+      "signals": 1
+    },
+    {
+      "setup": "TP1",
+      "direction": -1,
+      "mode": 0,
+      "records": 6,
+      "native_sha256": "01c14df798ab00dd0047ff76d106dffadaa08455008c50e5ca7fa3a69ac48392",
+      "signals": 1
+    },
+    {
+      "setup": "TP1",
+      "direction": -1,
+      "mode": 9,
+      "records": 11,
+      "native_sha256": "c5ae3501b21cd025062a7efcca01614d92729557fb118b207f978e6e2bb5c697",
+      "signals": 0
+    },
+    {
+      "setup": "TP1",
+      "direction": -1,
+      "mode": 18,
+      "records": 6,
+      "native_sha256": "5d16a467ed5208b09abfa6ab5c74f1183cb09ba8701b5a18b91965f9c566af90",
+      "signals": 1
+    },
+    {
+      "setup": "BR1",
+      "direction": 1,
+      "mode": 0,
+      "records": 7,
+      "native_sha256": "83174b82b2cb37e1d5c2a606a43200b00a07ab547b0d372675b68801ffcbf34a",
+      "signals": 1
+    },
+    {
+      "setup": "BR1",
+      "direction": 1,
+      "mode": 9,
+      "records": 12,
+      "native_sha256": "b255334074a57d6b4f09a3396d3d8e4e484de09c566dc7e256fac388e99c0d94",
+      "signals": 0
+    },
+    {
+      "setup": "BR1",
+      "direction": 1,
+      "mode": 18,
+      "records": 7,
+      "native_sha256": "2e335862ca6dc656a31f1df9cfa71f5a0a0ebde5bde9179b82ff35b0735e2ed6",
+      "signals": 1
+    },
+    {
+      "setup": "BR1",
+      "direction": -1,
+      "mode": 0,
+      "records": 7,
+      "native_sha256": "6d3c4dbf77a8adee97f0f7cbccb55ddb122c18da894c7a6aa8e068e9b7491e3b",
+      "signals": 1
+    },
+    {
+      "setup": "BR1",
+      "direction": -1,
+      "mode": 9,
+      "records": 12,
+      "native_sha256": "1a4a11df21aa5f30cd6df0f30aff90d2ede82b5b12bf42dee035872b91196b01",
+      "signals": 0
+    },
+    {
+      "setup": "BR1",
+      "direction": -1,
+      "mode": 18,
+      "records": 7,
+      "native_sha256": "394a81d1cf8326b8d84880f6abb867d11c4c099711d4fdc7a43d7e7fe8e71db1",
+      "signals": 1
+    }
+  ]
+}

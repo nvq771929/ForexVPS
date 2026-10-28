@@ -1,0 +1,40 @@
+{
+  "source_zip_sha256": "595835c86485cc61c85a2c6d8b987bfc1006f2406bd6d8ff68f4c960c09b4471",
+  "sample_events": 2174,
+  "preview_only": true,
+  "full_dataset": false,
+  "anchor": {
+    "rows": 322,
+    "status_counts": {
+      "UP": 128,
+      "TIE": 10,
+      "DOWN": 137,
+      "UNAVAILABLE": 46,
+      "OPEN": 1
+    },
+    "exclusions": {
+      "missing_outcome_record": 45,
+      "no_observed_entry": 42,
+      "no_lock": 206,
+      "missing_expiry_quote": 1
+    },
+    "eligible_closed_labels": 275,
+    "execution_trade_count": 0,
+    "label_meaning": "Observed future Bid price direction, not a traded WIN/LOSS",
+    "feature_contract": "CLOSED_ANCHOR_UP_V1",
+    "tick_provenance": "MT4_TESTER_MODEL_UNVERIFIED"
+  },
+  "t1": {
+    "feature_contract": "ANCHOR_T1_UP_V1",
+    "feature_count": 49,
+    "rows": 322,
+    "exclusions": {},
+    "source": "IMMUTABLE_PRE_ENTRY_LOCK",
+    "spread_feature_available": false,
+    "note": "Legacy POD stores Bid extrema, not Ask. Broker clock features are not UTC/session labels."
+  },
+  "t1_closed_labels": 275,
+  "exact_or_partial_candidate_traces": 3,
+  "model_trained": false,
+  "limitation": "Noncontinuous sampled events are not a sealed training dataset; no market performance inference."
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv-learning/
+demo-learning-path.txt
+*.ex4
+dist/
+data/
+*.bin
+*.lock
+history_models/
+history_logs/
+diagnostics_models/
+deep_models/
+candidate_research/

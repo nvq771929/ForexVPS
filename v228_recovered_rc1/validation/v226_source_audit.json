@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "previous_v225_source_unmodified": true,
+  "previous_files_verified": 395,
+  "previous_archive_sha256": "36a3c2207be73a566d5878056bb0e19da79ade670a8d74c5d6da9869bcaf4357",
+  "native_include_files_identical": 34,
+  "native_functions": [
+    {
+      "name": "BOProcess",
+      "sha256": "e15094e646d7abb53dab2025aa65761969bc2b9980234c2ef04611d5afc7af34",
+      "identical": true
+    },
+    {
+      "name": "BOResolve",
+      "sha256": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+      "identical": true
+    },
+    {
+      "name": "BOAttemptAnchor",
+      "sha256": "b9698a7c851950fd4bbbc965ad925e3c38ad79b997a4ab6308e2d11641687e1c",
+      "identical": true
+    },
+    {
+      "name": "BOReplayTesterLock",
+      "sha256": "4ea65c4082514e914566c2bc8368669ea462b07d113047e74263db4aef970c99",
+      "identical": true
+    },
+    {
+      "name": "FXInitFromInputs",
+      "sha256": "583fe6ff8cb4622de7fb332728d399fdfaccd00258ba0d24eeb0c85b5ea91008",
+      "identical": true
+    },
+    {
+      "name": "BORecord",
+      "sha256": "16969fd7a9d01f9d1eb92be5a5f1d8fec5b9bcb02bfa4aa10a0fe18d447b9866",
+      "identical": true
+    },
+    {
+      "name": "BORecordCurrent",
+      "sha256": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+      "identical": true
+    }
+  ],
+  "source_mirror_identical": true,
+  "mirror_files": 52,
+  "unresolved_includes": [],
+  "native_metaeditor_compiled": false,
+  "windows_terminal_validated": false,
+  "trained_trade_model_included": false
+}

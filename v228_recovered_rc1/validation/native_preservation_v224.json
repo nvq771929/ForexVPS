@@ -1,0 +1,39 @@
+{
+  "v223_source_files_verified_unchanged": 238,
+  "delivered_archives_unchanged": true,
+  "native_core_files_preserved": [
+    "Types.mqh",
+    "Decision.mqh",
+    "Episode.mqh",
+    "Validation.mqh",
+    "Forecast.mqh",
+    "Volatility.mqh",
+    "Momentum.mqh",
+    "Structure.mqh",
+    "Candle.mqh",
+    "Trend.mqh",
+    "Regime.mqh",
+    "Contract.mqh",
+    "Journal.mqh",
+    "ManualSignals.mqh"
+  ],
+  "forex_modules_byte_identical": [
+    "ForexAverage.mqh",
+    "ForexEngine.mqh",
+    "ForexRisk.mqh",
+    "ForexProtection.mqh",
+    "ForexNews.mqh"
+  ],
+  "forex_input_wiring_unchanged": true,
+  "install_mirror_identical": true,
+  "native_pod_schema": 2,
+  "native_logic": 2026101707,
+  "old_manual_contract_preserved": "V218_MANUAL_PUBLICATION_V1",
+  "default_dialogue_enabled": false,
+  "default_advice_effects": false,
+  "new_optional_extension": "Qualified cached WAIT veto before LOCK/publication only",
+  "timeout_policy": "NATIVE_EA_DECIDES",
+  "metaeditor_tested": false,
+  "windows_runtime_tested": false,
+  "market_profitability_validated": false
+}

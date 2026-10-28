@@ -1,0 +1,152 @@
+{
+  "baseline": "Verified Final V218 source",
+  "includes": [
+    {
+      "file": "AdvancedLearning.mqh",
+      "baseline_sha256": "7e513902b54e63a6c37e727bab97148844acc004ab0a01fefe8fb2f34b2527be",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "CandidateDiagnostics.mqh",
+      "baseline_sha256": "fe8286a5d38dcbadb65deabff4be7907d08f230600f7fdd0615627c48fbd43a5",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Candle.mqh",
+      "baseline_sha256": "982a14bd5e1212c8b329ad91cec76b8838fea16d96a0835c9b0a2ce677477e95",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Clock.mqh",
+      "baseline_sha256": "f638f6c6af61537fd95691d2de51d384340b347400aacb35aa7ddb862fa1762b",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Context.mqh",
+      "baseline_sha256": "110a8b4b87fffc85fa601d84f1e1d91b494fd284a4456d7db70316987e136f91",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Contract.mqh",
+      "baseline_sha256": "578140d375cd496d94749c26c469947312d53c83ae80d0c68599e3a4d054a7a3",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Decision.mqh",
+      "baseline_sha256": "8ca5d705d4a3d939eb9518f1a8c5d5f571a39a8181f2efe0eb8dbb4e0dbe0fbe",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "DemoLearning.mqh",
+      "baseline_sha256": "989849271c94cbd4820d182e97835501fae133e9e041c152d97de109d2fbe7ee",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Episode.mqh",
+      "baseline_sha256": "e62a972825ff058daa887c5a8aa9f12085b3b75837066d635ce9ab46b8041c18",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Forecast.mqh",
+      "baseline_sha256": "ddb46ce80d653a04787e9a8612ac3b81fd421ff58e0c12cd5672979b92157088",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "History.mqh",
+      "baseline_sha256": "3684bc8c688d5f8933678ca1176ad0744227165aa1bc99949ecfb5edd6164678",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Journal.mqh",
+      "baseline_sha256": "fb55802c18726f02de50f620b845eab9e018f572bbb72ed370e1d416779a6215",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "ManualSignals.mqh",
+      "baseline_sha256": "5df1168e3bba71bae237aa744989780fcbea97b197eb0ef254ec39846b09c3ca",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Market.mqh",
+      "baseline_sha256": "c83e4f426e60e6df90ac2de86fa0d6ccacbdf5323a6933ef6eaf17ee8c79c2e4",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "MarketContext.mqh",
+      "baseline_sha256": "0b56bc06021728cf2348563d5e81df76f4bba3ea348b401bb8e9b03146a9ca15",
+      "unchanged_after_namespace_normalization": false
+    },
+    {
+      "file": "Momentum.mqh",
+      "baseline_sha256": "a9e53f72d3a4408602fc428662aed4c85d712987e83ce78cba4cf04d43dbf915",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Origin.mqh",
+      "baseline_sha256": "20e90ad6eec712e1ebe9198b6d12ea23f7d46526be93a6d8d0a66823741997a8",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Outcomes.mqh",
+      "baseline_sha256": "75536e9c946348ea9b63b6ef0030a7acefd6e3ddb4988cae9f3b5a96dd3d6ea8",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Regime.mqh",
+      "baseline_sha256": "605e96b0a6f0b2863d4064503e6733896a0288d7433b5aacb93b2638783ccfb8",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "RuntimeDiagnostics.mqh",
+      "baseline_sha256": "d2c2b99902f444dc08c593ef7915abd78fb327c45261968be5d85931cfbdd953",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Structure.mqh",
+      "baseline_sha256": "4df3efb2bf670b0130c6d7fd2fd89fbba1e1d03d98107109817c7d734d2afb66",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "TesterDashboard.mqh",
+      "baseline_sha256": "ceceedf948c52e0223ca13ee47759cbc00c73f7b9d8961a09efd31be49f21e1e",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Trend.mqh",
+      "baseline_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Types.mqh",
+      "baseline_sha256": "c5feb669f71f7a092fde9db49300b6ead9260e15dd69272f06bbcb2dd362b84a",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "UI.mqh",
+      "baseline_sha256": "6eb4d0b39bd64d478da7c7c640077d0d3a40a6916572c7be3215b8b41802b1ba",
+      "unchanged_after_namespace_normalization": false
+    },
+    {
+      "file": "Validation.mqh",
+      "baseline_sha256": "522434a937e80489c28d450d306a1cf7fb5b66f4ac7f9230bfa9da267e43f25a",
+      "unchanged_after_namespace_normalization": true
+    },
+    {
+      "file": "Volatility.mqh",
+      "baseline_sha256": "8fe344cad11a21a75a03ff4be987b4884c4ceceed227389f75e06dc2c709ccc6",
+      "unchanged_after_namespace_normalization": true
+    }
+  ],
+  "boundary_processing_sha256": "dbca4dea4e000e98cccf77073aebf4d289456443a930184d08d9b1587aa915f2",
+  "intentional_changes": [
+    "Expert anchor attempt/cache synchronization and slot diagnostics",
+    "MarketContext.mqh observation-only news metadata/windows",
+    "UI.mqh display"
+  ],
+  "manual_contract": "V218_MANUAL_PUBLICATION_V1",
+  "native_POD_schema": 2,
+  "native_logic": 2026101707,
+  "historical_inherited_record": true,
+  "current_audit": "docs/v222-binary-preservation.json",
+  "note": "Inherited pre-Forex audit. The current V222 namespace-normalized comparison is recorded separately; do not infer whole Forex engine preservation."
+}

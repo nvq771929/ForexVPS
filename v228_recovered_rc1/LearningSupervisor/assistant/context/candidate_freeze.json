@@ -1,0 +1,31 @@
+{
+  "candidate_id": "V225_MTF_CONTEXT_OBSERVER_RC1_20261024",
+  "frozen_at_utc": "2026-10-24T04:53:14.123786+00:00",
+  "source_fingerprint_sha256": "4bdef27002e5e5e1aaf8e736a0a538680393107a6236c99419c50afabef579aa",
+  "files_sha256": {
+    "README_VI.md": "9831a3dccda2f7d59969c1cca337c03bedb64fd87c0be2a028363e77e9be0d45",
+    "duration.py": "b6f35f703cfb370683cdf582b78775c17c31cdaabc00bdd8164e86cacbd8d5d2",
+    "engine.py": "0c2fa14d09c04d9d61b5e73675e78c3d7694d86b1823422d1c3349a366c6d19b",
+    "evaluate.py": "a820b27840589acb71a1ab645129b7077e98dff449eb0ddcbdee6e03d80affe6",
+    "explorer.html": "9c0cdb88e8a08ed4d863bb9c516ef4f3775f3be1fafeff444f4f1eade1653bec",
+    "input_receipts.json": "75f56ba5ec06d9dbc6c8249d211ab7a9e98eeca1221fd55aa3fa13f2e1d67a86",
+    "prepare.py": "67108308fb6bd607cc975cfe5a7338568ac577dafae64444d9fc8c801a4cb315",
+    "protocol.json": "b1bc71e8c62e761785ac96ac84909a165b58f90ebc9cdb7a0c21dece526addb7",
+    "protocol_frozen.json": "165ed7c2c3570086b808a18767f614efe3bdce5b46b6d32a2e852f816d8ace06",
+    "report.py": "f6016b60ea31123c5e9a44a7ebbb591b5e9b7bfe1f580c2d62ca670437588a84",
+    "run.py": "3e5ebb40a742efe57ffe593e7ed8254ee050f4d46bf68ed5ff7d5d1efc97e3b0",
+    "sessions.py": "26d2e9fef52536520847489b082f4f839037d77de4de7efff2f56206f887c4ad",
+    "test_observer.py": "94a0e2697d8085a6a9f00794d4956c90085f65e635d341af1e2b1da53f5318f8",
+    "verify.py": "c4791b848193224b96f2f0ce024ca595463b3fb65d8333540e944f11a4aa774b",
+    "zones/America/New_York": "d7f2206b3a45989fc9ad63d558922532fa7352280d5f87176bf1db79cb1d1fa9",
+    "zones/Asia/Tokyo": "59a3871430f0d3b93e619fa30a43a41d1e88bdd49ff26f09d0f405a500706f96",
+    "zones/Australia/Sydney": "820d45a868a88f81c731d5b2c758b4ed000039b6260a80433f8e0f094a604b59",
+    "zones/Europe/London": "676541f0b8ad457c744c093f807589adcad909e3fd03f901787d08786eedbd33",
+    "zones/SOURCE.json": "c915993cee2219c4744c637a747287235d0ea158b10464a30e79f1d600b81021"
+  },
+  "previous_fingerprint_before_report_binding_guard": "038148b3a06eda3c84bc54d1eb60068affe86f6b1c1a7cfe2810ea0f97d23930",
+  "effects_allowed": false,
+  "accepted_trading_filter": false,
+  "independent_forward_evidence": false,
+  "next_validation": "Unchanged observer on newly collected data before any Entry change"
+}

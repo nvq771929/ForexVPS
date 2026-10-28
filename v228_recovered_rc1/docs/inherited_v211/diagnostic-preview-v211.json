@@ -1,0 +1,108 @@
+{
+  "preview_only": true,
+  "not_training_dataset": true,
+  "source": "Diagnostic sampled windows; noncontinuous events must never be promoted as a complete Tester run",
+  "sampled_events": 2174,
+  "research": {
+    "rows": 322,
+    "status_counts": {
+      "UP": 128,
+      "TIE": 10,
+      "DOWN": 137,
+      "UNAVAILABLE": 46,
+      "OPEN": 1
+    },
+    "exclusions": {
+      "missing_outcome_record": 45,
+      "no_observed_entry": 42,
+      "no_lock": 206,
+      "missing_expiry_quote": 1
+    },
+    "eligible_closed_labels": 275,
+    "execution_trade_count": 0,
+    "label_meaning": "Observed future Bid price direction, not a traded WIN/LOSS",
+    "feature_contract": "CLOSED_ANCHOR_UP_V1",
+    "tick_provenance": "MT4_TESTER_MODEL_UNVERIFIED"
+  },
+  "funnel": {
+    "counts": {
+      "analysis_starts": 373,
+      "ready_closed_anchors": 373,
+      "candidate_formed": 2,
+      "atr_below_3_pips_descriptive": 221,
+      "locks": 364,
+      "confirmed_at_lock": 1,
+      "published_at_lock": 1,
+      "entry_records": 367,
+      "simulated_execution_entries": 0,
+      "canceled_at_entry": 2,
+      "execution_primary_outcomes": 0,
+      "boundary_gaps_sampled": 373,
+      "boundary_gaps_over_3_seconds": 369
+    },
+    "events_by_kind": {
+      "7": 1,
+      "1": 373,
+      "3": 364,
+      "5": 367,
+      "6": 1065,
+      "2": 1,
+      "4": 1,
+      "8": 2
+    },
+    "candidate_reasons": {
+      "VOLATILITY_RESEARCH_FILTER": 225,
+      "CONTEXT_UNSUPPORTED": 105,
+      "NO_SETUP": 41,
+      "OK": 2
+    },
+    "lock_reasons": {
+      "VOLATILITY_RESEARCH_FILTER": 223,
+      "CONTEXT_UNSUPPORTED": 98,
+      "NO_SETUP": 41,
+      "STRUCTURAL_BREAK": 1,
+      "OK": 1
+    },
+    "entry_reasons": {
+      "VOLATILITY_RESEARCH_FILTER": 223,
+      "CONTEXT_UNSUPPORTED": 102,
+      "NO_SETUP": 40,
+      "QUOTE_GAP": 1,
+      "STRUCTURAL_BREAK": 1
+    },
+    "cancellation_events_by_reason": {
+      "STRUCTURAL_BREAK": 1
+    },
+    "regimes_at_start": {
+      "7": 38,
+      "6": 224,
+      "1": 68,
+      "3": 14,
+      "5": 2,
+      "2": 26,
+      "4": 1
+    },
+    "boundary_previous_quote_gap_seconds": {
+      "13.0": 41,
+      "12.0": 40,
+      "16.0": 17,
+      "28.0": 2,
+      "38.0": 7,
+      "11.0": 35,
+      "6.0": 32,
+      "5.0": 32,
+      "10.0": 7,
+      "4.0": 128,
+      "1.0": 4,
+      "8.0": 13,
+      "34.0": 2,
+      "9.0": 2,
+      "50.0": 1,
+      "27.0": 5,
+      "26.0": 1,
+      "18.0": 4
+    },
+    "note": "Boundary gaps are quote observations, not canceled trades; reason counts are stage-specific."
+  },
+  "model_fitted": false
+}

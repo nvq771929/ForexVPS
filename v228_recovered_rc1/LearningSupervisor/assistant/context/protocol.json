@@ -1,0 +1,39 @@
+{
+  "contract": "V225_MTF_CONTEXT_OBSERVER_RESEARCH_V1",
+  "status": "OFFLINE_OBSERVER_ONLY; no EA source edits, orders, adviser integration, model import or accepted trading filter",
+  "thresholds": "One fixed candidate, defined before calculation; no grid search or later-period tuning",
+  "input": "Chronological validated closed M5 OHLC; aggregate natural UTC+0 M15/H1 only after all 3/12 constituent M5 bars close; missing constituents invalidate aggregate",
+  "indicator_warmup": "At least 150 completed bars per M15 and H1; persistent EMA20/50 seeded once by first period SMA; ATR14 simple true-range mean; no current/incomplete higher-timeframe bar",
+  "freshness": "Latest M15 close age <900s and H1 close age <3600s at asof; missing/stale data UNKNOWN, never backfill a decision",
+  "direction_vote": "Each M15/H1 votes +1 when (EMA20-EMA50)/ATR >0.10 and EMA20 change across 3 bars >0; mirror for -1; otherwise 0",
+  "direction_consensus": "UP/DOWN when both votes agree; RANGE candidate only if H1 vote=0, M15 abs EMA gap<=0.25 ATR, efficiency12<0.35, range12<=4 ATR, AND both nonoverlapping native-style M5 zones known; otherwise UNCERTAIN",
+  "persistence": "Require two consecutive distinct completed M15 observations of same UP/DOWN/RANGE candidate before committing. One unsupported M15 observation retains confirmed UP/DOWN with weakening flag; two unsupported observations set UNCERTAIN. No counting the same M15 bar once per M5; data gaps clear state. Start age at confirmation, never backdate to first candidate",
+  "volatility": "Independent M5 ATR14 / ATR14 ending 14 bars earlier: <0.75 COMPRESSED, >1.25 EXPANDED, otherwise NORMAL; cannot replace direction",
+  "phase": "For confirmed direction: WEAKENING if timeframe votes conflict, signed M15 net6<=0, signed recent EMA20 slope3 falls below half a positive preceding slope3, or known opposite M5 zone within0.5 M5 ATR; else EXTENDED if signed M15 distance EMA20>1.5 ATR; else FORMING for observed age<30m; else CONTINUING. All heuristic flags, not calibrated maturity or exact remaining life",
+  "zones": "Same 64-bar closed M5 native pivot/cluster mechanism as audited source; incomplete 64 contiguous M5 bars -> zones UNKNOWN; prices and knownAt remain causal",
+  "comparison": "Same 32836 audited native ANCHOR times. Direction coverage, label changes, both-boundary RANGE validity, ages and diagnostic 30m future-reference table from prior audit; not market classification accuracy",
+  "primary_future_contrast": "Paired aligned-reference difference on common complete windows where both old/native-family and new observer identify UP or DOWN. Same original future taxonomy. Cluster bootstrap by UTC ANCHOR day, 5000 draws; descriptive already-inspected history",
+  "publication_diagnostic": "One fixed illustrative veto: new confirmed direction opposite original signal, only asof <=LOCK. UNKNOWN/RANGE/UNCERTAIN pass. Compare avoided LOSS and discarded WIN with original 237 fixed signals at original 30m expiry; not a full strategy replay or accepted filter. No phase veto, combination or threshold optimization",
+  "publication_development_gates": {
+    "coverage_min": 0.7,
+    "WIN_retention_min": 0.8,
+    "win_rate_gain_strictly_positive": true,
+    "W_minus_L_gain_strictly_positive": true
+  },
+  "history_duration": "Kaplan-Meier summaries of confirmed observer UP/DOWN runs, known detected start only; gaps/end-of-data right-censored, never call true market lifespan. Development-only historical reference frozen at 2026-01-15; before cutoff return COLLECTING; after cutoff estimates labelled unvalidated research, never trusted trading probabilities",
+  "duration_horizons_minutes": [
+    15,
+    30,
+    60
+  ],
+  "development_end_exclusive": "2026-01-15",
+  "later_period": "Descriptive stability check only; history already inspected, never call blind test or independent forward",
+  "bootstrap_seed": 225426,
+  "bootstrap_resamples": 5000,
+  "training_gates": "Original 400/100/150 supervised qualification gates unchanged; no supervised/deep model trained or activated",
+  "EA_changed": false,
+  "accepted_strategy_changes": [],
+  "duration_lookup": "Historical strata by direction and session/volatility at detected run START; sparse strata reported, not trusted. Optional reference only for asof>=development cutoff, uses no later outcomes; direction-only fallback explicit. Same pinned IANA session conventions as prior audit.",
+  "duration_display_sparsity": "30 known-start runs for selecting fine historical display strata; otherwise explicit direction-only sparse fallback. This is a descriptive display convention, not an activation/qualification gate.",
+  "range_invariant": "Committed RANGE is immediately withdrawn to UNCERTAIN if current closed-bar candidate loses the two-boundary requirements, including between M15 commits."
+}

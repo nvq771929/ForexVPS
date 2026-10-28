@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Source preservation and software tests, not market-performance validation",
+  "automated_tests": {
+    "ea": 303,
+    "learning": 76
+  },
+  "tests_skipped": 0,
+  "native_expert_include_unchanged": 35,
+  "forex_unchanged": true,
+  "mql4_install_mirror_identical": true,
+  "delivered_rc2_unchanged": true,
+  "current_v223_run_pack_unchanged": true,
+  "language_model_weights_included": false,
+  "local_language_model_default": false,
+  "local_assistant_ea_effects": false,
+  "paid_api_calls": false,
+  "real_ollama_model_tested": false,
+  "native_metaeditor_compiled": false,
+  "windows_terminal_validated": false,
+  "package_is_full_source": true,
+  "local_assistant_stdlib_only_cli_test": "PASS_SOFTWARE_FIXTURE",
+  "context_engine_sha256": "0c2fa14d09c04d9d61b5e73675e78c3d7694d86b1823422d1c3349a366c6d19b",
+  "browser_verification": {
+    "status": "PASS",
+    "source": "SOFTWARE_FIXTURE_ONLY",
+    "checks": [
+      {
+        "viewport": [
+          1365,
+          900
+        ],
+        "horizontal_overflow": false,
+        "page_errors": [],
+        "details_interactive": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "horizontal_overflow": false,
+        "page_errors": [],
+        "details_interactive": true
+      }
+    ],
+    "windows_file_open_tested": false
+  }
+}

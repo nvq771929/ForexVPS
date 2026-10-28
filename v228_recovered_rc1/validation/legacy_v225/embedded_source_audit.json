@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "previous_source_tree_unmodified": true,
+  "previous_source_files_verified": 376,
+  "inherited_native_include_files_identical": 34,
+  "source_mirror_identical": true,
+  "unresolved_includes": [],
+  "new_expert": "EURUSD_M5_Intelligence_V225.mq4",
+  "legacy_include_namespace": "EURUSD_M5_V224",
+  "legacy_journal_and_model_contracts_preserved": true,
+  "native_metaeditor_compiled": false
+}
