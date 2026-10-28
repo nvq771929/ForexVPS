@@ -1,0 +1,23 @@
+{
+  "release": "V2.31_RESEARCH",
+  "zip": "ForexVPS_V231_Tester_Continuity_Research_5_Presets.zip",
+  "sha256": "0d58cb0ef7fa7a9270849ea1301736f412f067d73bffe19088833a7118f406b8",
+  "entries": 104,
+  "crc_and_manifest_verified": true,
+  "source_tests_passed": 20,
+  "extracted_tests_passed": 20,
+  "v230_regression_tests": 8,
+  "v229_root_regression_tests": 375,
+  "v229_supervisor_tests": 76,
+  "skips": 0,
+  "preserved_v229_headers": 40,
+  "preset_count": 5,
+  "preset_differences_from_v230_baseline_audited": true,
+  "entry_freshness_seconds": 3,
+  "entry_lag_seconds": 2,
+  "metaeditor_compiled": false,
+  "ex4_included": false,
+  "mt4_order_backtest_completed": false,
+  "profitability_validated": false,
+  "baseline_commit": "1c86a0a1e5cbf6cf7beae27f7163f82ce178acf3"
+}
