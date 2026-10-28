@@ -1,0 +1,15 @@
+{
+  "old_V219_binary_records_verified": 7490,
+  "research_rows": 1241,
+  "manual_counts": {
+    "COMMITTED": 7,
+    "WIN": 3,
+    "LOSS": 4,
+    "TIE": 0,
+    "UNAVAILABLE": 0,
+    "PENDING": 0,
+    "WITHHELD": 0
+  },
+  "model_fit_performed": false,
+  "note": "V222 read-back of frozen V219 Binary core/labels only; old observer filenames remain with V219 tools."
+}

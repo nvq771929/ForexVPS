@@ -1,0 +1,32 @@
+{
+  "contract": "V225_EMBEDDED_CONTEXT_PARITY_V1",
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-12,
+  "native_metaeditor_compiled": false,
+  "changed_trade_decisions": false,
+  "corpora": [
+    {
+      "source_name": "m5_history.json.gz",
+      "sha256": "79976d1eea271862fe5f678dee5bd05112e070d64e2e827c1d37024c7a559c01",
+      "bars": 36077,
+      "values_checked": 2533562,
+      "exact_discrete_values": 1210161,
+      "max_absolute_float_difference": 1.0869083411080283e-12,
+      "native_seconds_including_csv_io": 0.8062323789927177,
+      "engine_count_m5": 36077,
+      "status": "PASS"
+    },
+    {
+      "source_name": "closed_m5.json.gz",
+      "sha256": "d423b9c56da76bf61c816ceae64d6654bcfcd2a197e854904077c8e6afc6b14d",
+      "bars": 9536,
+      "values_checked": 652671,
+      "exact_discrete_values": 318181,
+      "max_absolute_float_difference": 0,
+      "native_seconds_including_csv_io": 0.21344289398984984,
+      "engine_count_m5": 9536,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

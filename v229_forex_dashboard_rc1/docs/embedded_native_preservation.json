@@ -1,0 +1,49 @@
+{
+  "functions": [
+    {
+      "name": "BOProcess",
+      "rc3_sha256": "e15094e646d7abb53dab2025aa65761969bc2b9980234c2ef04611d5afc7af34",
+      "v225_sha256": "e15094e646d7abb53dab2025aa65761969bc2b9980234c2ef04611d5afc7af34",
+      "identical": true
+    },
+    {
+      "name": "BOResolve",
+      "rc3_sha256": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+      "v225_sha256": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+      "identical": true
+    },
+    {
+      "name": "BOAttemptAnchor",
+      "rc3_sha256": "b9698a7c851950fd4bbbc965ad925e3c38ad79b997a4ab6308e2d11641687e1c",
+      "v225_sha256": "b9698a7c851950fd4bbbc965ad925e3c38ad79b997a4ab6308e2d11641687e1c",
+      "identical": true
+    },
+    {
+      "name": "BOReplayTesterLock",
+      "rc3_sha256": "4ea65c4082514e914566c2bc8368669ea462b07d113047e74263db4aef970c99",
+      "v225_sha256": "4ea65c4082514e914566c2bc8368669ea462b07d113047e74263db4aef970c99",
+      "identical": true
+    },
+    {
+      "name": "FXInitFromInputs",
+      "rc3_sha256": "583fe6ff8cb4622de7fb332728d399fdfaccd00258ba0d24eeb0c85b5ea91008",
+      "v225_sha256": "583fe6ff8cb4622de7fb332728d399fdfaccd00258ba0d24eeb0c85b5ea91008",
+      "identical": true
+    },
+    {
+      "name": "BORecord",
+      "rc3_sha256": "16969fd7a9d01f9d1eb92be5a5f1d8fec5b9bcb02bfa4aa10a0fe18d447b9866",
+      "v225_sha256": "16969fd7a9d01f9d1eb92be5a5f1d8fec5b9bcb02bfa4aa10a0fe18d447b9866",
+      "identical": true
+    },
+    {
+      "name": "BORecordCurrent",
+      "rc3_sha256": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+      "v225_sha256": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+      "identical": true
+    }
+  ],
+  "legacy_include_namespace": "EURUSD_M5_V224",
+  "new_native_module": "OBSERVE_ONLY",
+  "native_pod_changed": false
+}

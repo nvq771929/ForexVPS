@@ -1,0 +1,254 @@
+{
+  "recovery_source_zip_sha256": "7e3ffb5d2739a199295613ebc10fbf24c7bc171323175b42387c8c391f6770ce",
+  "original_manifest_entries": 393,
+  "original_manifest_matches": 392,
+  "original_manifest_difference": "MQL4/Experts/EURUSD_M5_Intelligence_V226.mq4: two installed ChartFix1 init conditions",
+  "original_archive_crc_verified": true,
+  "baseline_root_tests": {
+    "run": 328,
+    "passed": 326,
+    "failures": 1,
+    "errors": 1,
+    "skipped": 0,
+    "cause": "Canonical and installed Expert differ; mirror contract and package content checks fail"
+  },
+  "baseline_supervisor_tests": {
+    "run": 76,
+    "passed": 76,
+    "skipped": 0
+  },
+  "native_headers": [
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/AdvancedLearning.mqh",
+      "original_sha256": "47ed68fc1c63907eef1eac2feb298e2f38270ccd44e5e65e6665b18bf4995fdb",
+      "current_sha256": "47ed68fc1c63907eef1eac2feb298e2f38270ccd44e5e65e6665b18bf4995fdb",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/CandidateDiagnostics.mqh",
+      "original_sha256": "f4b4bd1fe692e9102eadfefae6458181ac3ebc3feb7ad7367103aaf2209af69c",
+      "current_sha256": "f4b4bd1fe692e9102eadfefae6458181ac3ebc3feb7ad7367103aaf2209af69c",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Candle.mqh",
+      "original_sha256": "379312cdf224be2e3c3c612018d7af1155a9fe7390faf93425adb36a97c57b03",
+      "current_sha256": "379312cdf224be2e3c3c612018d7af1155a9fe7390faf93425adb36a97c57b03",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Clock.mqh",
+      "original_sha256": "8c2c46060937a75a395bb2e6b2d48cae045fbc8eedd2f0119f01f91af492ee5b",
+      "current_sha256": "8c2c46060937a75a395bb2e6b2d48cae045fbc8eedd2f0119f01f91af492ee5b",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Context.mqh",
+      "original_sha256": "933aa5c4d34da3bca63d89bed85ca9ceedcaf07be61c696dc85365f86759bbd6",
+      "current_sha256": "933aa5c4d34da3bca63d89bed85ca9ceedcaf07be61c696dc85365f86759bbd6",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Contract.mqh",
+      "original_sha256": "464457f95d8cb08005f9fa54a45777a5e690667d9464efe757783aa1cb445696",
+      "current_sha256": "464457f95d8cb08005f9fa54a45777a5e690667d9464efe757783aa1cb445696",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Decision.mqh",
+      "original_sha256": "46904373bf4e92a92f0bef876cad52766c5aeb005d7688760111cdbe43479a57",
+      "current_sha256": "46904373bf4e92a92f0bef876cad52766c5aeb005d7688760111cdbe43479a57",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/DemoLearning.mqh",
+      "original_sha256": "b11a609d14287eab2ed8388bfb94e2b4fb05131bd6bf40edd932364537bd1ba9",
+      "current_sha256": "b11a609d14287eab2ed8388bfb94e2b4fb05131bd6bf40edd932364537bd1ba9",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/EmbeddedContext.mqh",
+      "original_sha256": "20f975dec24a46fbdb3f41357a78a1bf92ab094dd31e063f5505ebf76ae25e4a",
+      "current_sha256": "20f975dec24a46fbdb3f41357a78a1bf92ab094dd31e063f5505ebf76ae25e4a",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/EmbeddedObserver.mqh",
+      "original_sha256": "38e484888b3acbc503b826800fec6e245e37ab01d15329f3981ef9fed06d13fb",
+      "current_sha256": "38e484888b3acbc503b826800fec6e245e37ab01d15329f3981ef9fed06d13fb",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/EmbeddedStorage.mqh",
+      "original_sha256": "54acd85b72b3381b801ab830afa1bacb21cffcdf024a89ce1a920b63acda7360",
+      "current_sha256": "54acd85b72b3381b801ab830afa1bacb21cffcdf024a89ce1a920b63acda7360",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Episode.mqh",
+      "original_sha256": "780be80952194ed5824c51e22e63e53fa71876c40d8907263c0339ed9b92924d",
+      "current_sha256": "780be80952194ed5824c51e22e63e53fa71876c40d8907263c0339ed9b92924d",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Forecast.mqh",
+      "original_sha256": "4f6f06456c99890b4a23ab8f0d8864073de913d03f856f2541e6edaf231e49a4",
+      "current_sha256": "4f6f06456c99890b4a23ab8f0d8864073de913d03f856f2541e6edaf231e49a4",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ForexAverage.mqh",
+      "original_sha256": "5a95de243fbc718e17de0ff90f68fcd716066edb0369c66718490610622a00fa",
+      "current_sha256": "5a95de243fbc718e17de0ff90f68fcd716066edb0369c66718490610622a00fa",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ForexEngine.mqh",
+      "original_sha256": "4a46069c23634a0866440733391520030a07bd70ad06aa100896495546384432",
+      "current_sha256": "4a46069c23634a0866440733391520030a07bd70ad06aa100896495546384432",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ForexNews.mqh",
+      "original_sha256": "eeba3a651c42d117c57542c919347dfb9451a96e0767e6b6502a242c1659eb84",
+      "current_sha256": "eeba3a651c42d117c57542c919347dfb9451a96e0767e6b6502a242c1659eb84",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ForexProtection.mqh",
+      "original_sha256": "f7885484441c08b507b1d7beeb54ae2d26a04772f00edb415af1c463f0052dbf",
+      "current_sha256": "f7885484441c08b507b1d7beeb54ae2d26a04772f00edb415af1c463f0052dbf",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ForexRisk.mqh",
+      "original_sha256": "718523ab9624033988cca9cb4c2cabbf8194cf2b282cc8d328abb350772e3a35",
+      "current_sha256": "718523ab9624033988cca9cb4c2cabbf8194cf2b282cc8d328abb350772e3a35",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/History.mqh",
+      "original_sha256": "003218ae658e59c067deade719225bd23000d74fcada83c094b0d1108fadf7f9",
+      "current_sha256": "003218ae658e59c067deade719225bd23000d74fcada83c094b0d1108fadf7f9",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Journal.mqh",
+      "original_sha256": "d040316d547f327d4273e1d3d9b5630ec1a53195729e18d45bb2a2f05adab8c6",
+      "current_sha256": "d040316d547f327d4273e1d3d9b5630ec1a53195729e18d45bb2a2f05adab8c6",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/LearningDialogue.mqh",
+      "original_sha256": "801e680e9552be650613cf8ec82536d6c525e32d2dc51cfeedeec881e7be3a0f",
+      "current_sha256": "801e680e9552be650613cf8ec82536d6c525e32d2dc51cfeedeec881e7be3a0f",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/ManualSignals.mqh",
+      "original_sha256": "7862fe400baf55a0333ee76741aa69eff8128f1e786015c1aea4da7087a17d64",
+      "current_sha256": "7862fe400baf55a0333ee76741aa69eff8128f1e786015c1aea4da7087a17d64",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Market.mqh",
+      "original_sha256": "f725b6e559e5ff755bbf0e20824ca1c6de0ce14031e8604d23f7e330af8b00c3",
+      "current_sha256": "f725b6e559e5ff755bbf0e20824ca1c6de0ce14031e8604d23f7e330af8b00c3",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/MarketContext.mqh",
+      "original_sha256": "ab31b1d2d8017857f3b59041e0c66937c37672a9b292d23edf713d5e20fcfe42",
+      "current_sha256": "ab31b1d2d8017857f3b59041e0c66937c37672a9b292d23edf713d5e20fcfe42",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Momentum.mqh",
+      "original_sha256": "4dea18558feaeb2bcebc78cbc66b6f6abd0342e0c42b03acf3557fd4c6b1e1f9",
+      "current_sha256": "4dea18558feaeb2bcebc78cbc66b6f6abd0342e0c42b03acf3557fd4c6b1e1f9",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Origin.mqh",
+      "original_sha256": "15e051e32d6f213f04b13a9ecda9648c2d11ee9cbd04833fe12e6aa6cfa469ce",
+      "current_sha256": "15e051e32d6f213f04b13a9ecda9648c2d11ee9cbd04833fe12e6aa6cfa469ce",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Outcomes.mqh",
+      "original_sha256": "3080771e22222c420043936790021b0ae79977a46fdad8b66034e0c3393f3864",
+      "current_sha256": "3080771e22222c420043936790021b0ae79977a46fdad8b66034e0c3393f3864",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Regime.mqh",
+      "original_sha256": "860490a553681d288294531c034761da21df564d5f09e7d95f6af3b083e7d88b",
+      "current_sha256": "860490a553681d288294531c034761da21df564d5f09e7d95f6af3b083e7d88b",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/RuntimeDiagnostics.mqh",
+      "original_sha256": "9c0ba3be5b808a209df6ecee8174f95b58673b918b9c60f3b01c0c2e863af8a2",
+      "current_sha256": "9c0ba3be5b808a209df6ecee8174f95b58673b918b9c60f3b01c0c2e863af8a2",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/SlotDiagnostics.mqh",
+      "original_sha256": "bb83f7f24241fa3987691f7505adfa47ab442d8a6f69d636b72876bb67470757",
+      "current_sha256": "bb83f7f24241fa3987691f7505adfa47ab442d8a6f69d636b72876bb67470757",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Structure.mqh",
+      "original_sha256": "2508b872fe61f89ed88af743ae74d428da1cf595c3e757cfc3e932c550d8db27",
+      "current_sha256": "2508b872fe61f89ed88af743ae74d428da1cf595c3e757cfc3e932c550d8db27",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/TesterDashboard.mqh",
+      "original_sha256": "8dbe1577449d4dd417419524266f8e7286d9ca4a0139496e8aff17179aea0723",
+      "current_sha256": "8dbe1577449d4dd417419524266f8e7286d9ca4a0139496e8aff17179aea0723",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Trend.mqh",
+      "original_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "current_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Types.mqh",
+      "original_sha256": "21f1ab69d3484c6c3fd2e613a704e8c3f8fcd94e02a53415762e06ad30b47303",
+      "current_sha256": "21f1ab69d3484c6c3fd2e613a704e8c3f8fcd94e02a53415762e06ad30b47303",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/UI.mqh",
+      "original_sha256": "5bb042b9eae7d7d00c41d1e68ef25cf70e76233f7662ad0dc3cfc29e76f2f0d7",
+      "current_sha256": "5bb042b9eae7d7d00c41d1e68ef25cf70e76233f7662ad0dc3cfc29e76f2f0d7",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Validation.mqh",
+      "original_sha256": "c53be98dc79e945f55de3e25b56cc38f3d270bf67f1ce947ffdf77f115d8ae43",
+      "current_sha256": "c53be98dc79e945f55de3e25b56cc38f3d270bf67f1ce947ffdf77f115d8ae43",
+      "byte_identical": true
+    },
+    {
+      "file": "mt4/Include/EURUSD_M5_V224/Volatility.mqh",
+      "original_sha256": "37bb9f4eb26aa4393a80c9acf1112e3ba3009069be13d455aede08db80b7d7bb",
+      "current_sha256": "37bb9f4eb26aa4393a80c9acf1112e3ba3009069be13d455aede08db80b7d7bb",
+      "byte_identical": true
+    }
+  ],
+  "added_native_headers": [
+    "ChartRoleV228.mqh",
+    "ClockObservation.mqh"
+  ],
+  "original_v228_byte_identity_verified": false,
+  "metaeditor_compiled": false,
+  "windows_pilot_validated": false,
+  "real_market_corpus_audits_rerun": false,
+  "calendar_probe": "Proxy CONNECT denied with 403; nfs.faireconomy.media requires supported environment allowlist update",
+  "clock_wrapper_location": "Scoped macro in Expert around frozen ForexEngine include; immediately undefined afterwards"
+}

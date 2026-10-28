@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rows": 32836,
+  "all_feature_hashes_verified": true,
+  "publication_cases_crosschecked": 237,
+  "publication_horizon_endpoints": 711,
+  "independently_reconstructed_rows": 133,
+  "independent_numeric_feature_values": 76608,
+  "folds_have_no_shared_feature_label_time_intervals": true,
+  "unavailable_not_imputed": true,
+  "no_pickled_arrays": true,
+  "model_trained": false,
+  "independent_market_holdout": false
+}

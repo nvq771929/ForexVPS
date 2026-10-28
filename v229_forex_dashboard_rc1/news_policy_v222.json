@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "contract": "V222_NEWS_TRACKING_V1",
+  "mode": "OBSERVE_ONLY",
+  "impacts": {
+    "High": {"before_minutes": 15, "after_minutes": 15},
+    "Medium": {"before_minutes": 10, "after_minutes": 15}
+  },
+  "priority_events": [
+    {"currency": "EUR", "title": "German ZEW Economic Sentiment", "before_minutes": 10, "after_minutes": 15},
+    {"currency": "EUR", "title": "ZEW Economic Sentiment", "before_minutes": 10, "after_minutes": 15},
+    {"currency": "EUR", "title": "German ZEW Current Conditions", "before_minutes": 10, "after_minutes": 15}
+  ]
+}

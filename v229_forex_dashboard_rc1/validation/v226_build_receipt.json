@@ -1,0 +1,29 @@
+{
+  "contract": "V226_CONTEXT_DATA_BUILD_RECEIPT_V1",
+  "files_sha256": {
+    "mt4/Experts/EURUSD_M5_Intelligence_V226.mq4": "459227dd31eeacc907f0cf662bebc422432d353c29fdd80764c853395b2a969a",
+    "mt4/Include/EURUSD_M5_V224/EmbeddedContext.mqh": "20f975dec24a46fbdb3f41357a78a1bf92ab094dd31e063f5505ebf76ae25e4a",
+    "mt4/Include/EURUSD_M5_V224/EmbeddedObserver.mqh": "38e484888b3acbc503b826800fec6e245e37ab01d15329f3981ef9fed06d13fb",
+    "mt4/Include/EURUSD_M5_V224/EmbeddedStorage.mqh": "54acd85b72b3381b801ab830afa1bacb21cffcdf024a89ce1a920b63acda7360",
+    "intelligence/price_behavior.py": "4cd52f01927599a5431d53e97c2759aa0c2c814f96f3dfffb67592ac5449ab39",
+    "intelligence/embedded_packets.py": "6203644b7a0fec8df83dc2874e406286bd712eabae42c772a6ae229ea3ea27db",
+    "intelligence/price_dataset.py": "7bc9f24ef2931d2d9b1f2c644b3f1716d6800f74d52cef9a374ae85f7698b624",
+    "tools/prepare_price_behavior.py": "cb0b6b3d172dc9233b2b3e56acce34074e2482fd519a7af3036a98a11499601e",
+    "tools/verify_price_behavior_data.py": "f29242cd39cd9aa8e0439f56ec5c2a16dbe3638cac44b6aaada0ad11d46ce245",
+    "validation/v226_source_audit.json": "af46e6698ab38bd1d90a8d5625580bcbfeef805761f86bfd2231971d28a4fc2b",
+    "validation/v226_real_invariants.json": "80f73b022e258d1cd62e8caaf635a52dfec063420b7eea1307daf35c6085f3e7",
+    "validation/price_dataset_verification.json": "b16b0f6b6ba0491b6a6d055bf65c31d465de4cb28a70ffc1d016c0f316f5ba59"
+  },
+  "root_tests_passed": 328,
+  "supervisor_tests_passed": 76,
+  "skipped": 0,
+  "checkpoint_real_bars": 45613,
+  "pilot_feature_comparisons": 806,
+  "pilot_feature_mismatches": 0,
+  "dataset_samples": 32836,
+  "old_publications_crosschecked": 237,
+  "model_trained": false,
+  "native_metaeditor_compiled": false,
+  "embedded_signal_effects": false,
+  "forex_changed": false
+}

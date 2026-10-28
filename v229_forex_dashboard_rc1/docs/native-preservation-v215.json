@@ -1,0 +1,168 @@
+{
+  "baseline": "Final V2.14",
+  "baseline_archive_sha256": "2d9003df7c6ce8db0d7b2e2133a0e96c851f610d69fa251b12773f37b239e6cd",
+  "includes": [
+    {
+      "file": "AdvancedLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "1bebc78721ca7a11c0beb417292d00814efaad5d7e5bc250d79dfdc60d52cf47",
+      "current_sha256": "0b511086deee8f20c383145e77a65876422d56578bceea0bd1c2d10e3247f1b4"
+    },
+    {
+      "file": "Candle.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "1c687b48bd6f1fd42b108c7891dc4fbaf79c9e26a7c8ef8c1d96a2e2d8340556",
+      "current_sha256": "5af854d1168b15c05f6955df2a04aaf3580c46dd5707cbd057453c4306867eab"
+    },
+    {
+      "file": "Clock.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "eb1539a8c9f05b995666bca3736f12b809e40a7f3c058d2504bf60a78ff3c5a0",
+      "current_sha256": "3400c6894f2ec026d89e16862fc68c067aa9372e786fbf040ae356e8552f1152"
+    },
+    {
+      "file": "Context.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "7b485d6f48f16497dbc4089cffdaa48dca6a42cc264a955a55aefb137d76ce29",
+      "current_sha256": "1af500bd2b860149f33d45289d18066c6c4ddf12b736240a69347880b65fb283"
+    },
+    {
+      "file": "Contract.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "ba20c59e891bad1061f964148cbff6456819ccdf6568c4d6452bb8f9b31a3ed3",
+      "current_sha256": "07094d9853c58616f8eab523da814e6abed34c14fb43be6c65047f55ee807201"
+    },
+    {
+      "file": "Decision.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "ecec4c85bac6f02d598967386a93680aa37028315f06eb33e6e1ac773fe76089",
+      "current_sha256": "82b6c36b1456ea3eeb0d9eee20d1432b8063edb2444bd0fa74840cba0d1f3ee3"
+    },
+    {
+      "file": "DemoLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "55f94065cb84efa4005a4afd573b816927cf35e2ca0949fa7353b8f3a7b93293",
+      "current_sha256": "0e9c5f2036c76f41b4136488e5ee4b99633ab01ac5cbb6843dfa2033e9d530b3"
+    },
+    {
+      "file": "Episode.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "6463da7c7a572d7d3b74b8edcea604eb7feee1a8eb2e9bf6b4a8629e8a7dc9b7",
+      "current_sha256": "c799e91e89aef966f1b640854267dd607a30007cd7b831054d6b0f99d036f6a5"
+    },
+    {
+      "file": "Forecast.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "dcabf8860e0e7f8f277d93f31e5ab10d923fb35b07586e0346603040e3252342",
+      "current_sha256": "6c581beb705381393c4f2744a4e8005c6e59edb9d93b4b9688778c7be9902e27"
+    },
+    {
+      "file": "History.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "b287cf80e73d1ca819b0c607ccb9a718cf0172c6c179e641ddcf470821299bde",
+      "current_sha256": "6b42c30af2a24db7d21ea70470f176fc8f13a864c0facdb6729397d9a02f9824"
+    },
+    {
+      "file": "Journal.mqh",
+      "unchanged_after_namespace_normalization": false,
+      "baseline_sha256": "8ad04e2a0301af69e43de6d40dd43bcc07651a29c880c01fda15d2184c5781e5",
+      "current_sha256": "4de2c448117a69ff2e2b4b91b0f031fef80d29e281509ec7109a10e284800745"
+    },
+    {
+      "file": "Market.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "d8c820044c367088b536e22767cdfa60f44349f51c8464bde378269b66d0594c",
+      "current_sha256": "b35521a8a496ec6c4c373dda582ec6b50903bc1f0777dc88d563e8c7598da431"
+    },
+    {
+      "file": "Momentum.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "0a757db87be716ab3a51def9f8df8b32b251393e4d79b33e5327cde30162be6e",
+      "current_sha256": "5090ec7184c946ba064e497889ea8ed96ef4696e7f115b7b9d7a32c8b0aff82a"
+    },
+    {
+      "file": "Origin.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "335ce3a5af8d1ffec07e291eeedb23ecd35aafce99e88409f785f033c01393af",
+      "current_sha256": "55effb237856cd294fb2dc219b616bd8dd608992f6ebd92fd64e8d09dba36975"
+    },
+    {
+      "file": "Outcomes.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "584a8cf42ee2b92cd2d68f588573fd24812be2059c01c02e81f044e4483038c9",
+      "current_sha256": "4c99a21388f4e76b5dd5507518d9844500ade4af53f82f8057df5d48cad7afd6"
+    },
+    {
+      "file": "Regime.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "693d7c1026d03d850a7607847f0ebc3456f8f2244cdc9f3a9d3572da3cd540af",
+      "current_sha256": "1d5e38bf75a9a863f77447508008f20171959871c668238741967901697526ef"
+    },
+    {
+      "file": "RuntimeDiagnostics.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "2b07b35f49cdc1bac4f55bf5d222b03a602457aebebc3ead3b25d4c9e79c4a3c",
+      "current_sha256": "a1fcaa9ff3fcdacbab0f335afce3bee43c23b37524a36b919e8b32c3d970286d"
+    },
+    {
+      "file": "Structure.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "bc6c146792c3dc3b63f2648b666a4588d2dcd1af7d6ea827198dfbc69334fec7",
+      "current_sha256": "aa8f4526a82a245f4d9d26a6baedcc4452ece1169b9f2d1c48debee30f5598a8"
+    },
+    {
+      "file": "TesterDashboard.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "99baa7257146887483452b439f839df1849bcf42e41ff2da81f1efe27a6d7745",
+      "current_sha256": "eb93fe9c9210b83de2db788bdf996c0f648f5f32c7c7590ec9ed3ad673f822bc"
+    },
+    {
+      "file": "Trend.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "current_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b"
+    },
+    {
+      "file": "Types.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "35e38e021df90484741e3e8e0f5823d847e87c281142a836b706738b291b18bf",
+      "current_sha256": "2a7d0d243320574fb5805afb076df5932b659119c488f15fa674cfab8f9b28ac"
+    },
+    {
+      "file": "UI.mqh",
+      "unchanged_after_namespace_normalization": false,
+      "baseline_sha256": "b307cab1734d2677ed34382bb574a7f7d93b48e4facdd140acd19be315c345d4",
+      "current_sha256": "1845e66c7ca33a95b609b1bde9908b441bdf1387833848ce9871d9a8cde82382"
+    },
+    {
+      "file": "Validation.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "2152b2c0727da4ef19bd6c9cf7b2c5962a8dfad49e4d36b14f1fbcd22b98bcfe",
+      "current_sha256": "deaafe3f84d4a65addf9269c11df7012c861dce99fccfad30a53ad9cae8d892e"
+    },
+    {
+      "file": "Volatility.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "e3ae7939ff1a6a7995f5ad3e88c1a1308d6e5cb33c8f4b0452119e90abc1edf6",
+      "current_sha256": "0dde5b93c551629ba69fe431dc0c35f546cd009cb6a9c7db1bdfcde34e2a2876"
+    }
+  ],
+  "new_observer": "CandidateDiagnostics.mqh",
+  "adapter_baseline_sha256": "3143e1116e20744d015b3c499433b2b7f14374100136e8ec9f0db1162fdcc756",
+  "allowed_adapter_changes": [
+    "namespace/release metadata",
+    "read-only observer include/call/reset",
+    "MetaEditor property version"
+  ],
+  "native_guard_change": false,
+  "adapter_decision_functions": {
+    "BOProcess": "8f6af11ca011f6569f30b0c24cdb26c4249a354116f130802ab7ba87cfa73e50",
+    "BOResolve": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+    "BORefreshHistory": "31338799438804999a10503b2f60d77397587cd6f924eab1292c2ec6fde8546f",
+    "BOLoadBars": "a16fe757da7b4d4555fbc3cd5da00fb0c3e1b022fdc2e91387e3ea35924f370c",
+    "BORecordCurrent": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+    "OnInit": "709eeb7d1d836592e213869cc2f53d36bc18a8023d302a4125f1c55979bd36c5",
+    "OnDeinit": "86bfca2ee1df1a2f45d7e8c3ceb5c3e43d032de6268393b594f1c3d0fb0c0b79"
+  },
+  "storage_change": "Replay share-read, success-only input counter and fail-stop after storage error; no guard threshold change"
+}

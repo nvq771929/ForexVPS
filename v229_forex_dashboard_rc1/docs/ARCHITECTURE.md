@@ -1,0 +1,15 @@
+# V2.14 architecture
+
+The independent native EURUSD M5 EA retains R10 structure/regime/SR1/TP1/BR1/T+1/lock/entry semantics, native logic2026101707, packed schema2 and postLOCK3sec. Native decision code is unchanged after namespace normalization; only the observer call receives config for diagnostic output. Observer schemas1/2 remain readable; new observer and Python report use schema3.
+
+Frozen ANCHOR_T1_UP_V1 and prepared_history_v211 schema2 remain readable and immutable. New t1_corrected migration derives ANCHOR_T1_UP_V2 (50 features) from preLOCK candidate direction and opposite-zone availability; missing targets get neutral reward plus availability=0. Genuine available distances are retained. Legacy cache bytes are never rewritten. Train-History saves the original snapshot before deriving corrected rows for new fitting; frozen old model diagnostics still use their original contract.
+
+Context pipeline: 32 contiguous recorded CLOSED_ANCHOR_UP_V1 vectors +50 corrected T+1 context values. No raw OHLC/tick reconstruction or gap imputation. Inner chronological train validation selects TCN checkpoint/epoch with patience3 and min_delta1e-4, maximum12. Algorithm selection uses inner Brier. Outer refit uses chosen epoch count without validation, followed by separate chronological Platt calibration and test. One-day embargo and outcome-availability purges remain. Numeric preprocessing fits train only; binary/signed-category columns are not z-amplified; numeric network inputs are clipped to +/-6 training sigma. Raw train domain bounds remain separate.
+
+All inner/outer component artifacts are data-only JSON with dataset/plan/contract identity and checksums. TCN includes initial/final/best checkpoints; runtime fingerprint avoids secret/environment-variable collection. Same seed does not promise cross-platform bit identity.
+
+Candidate quality is a distinct sparse Bayesian setup/direction scorer, not TCN embeddings wired into live trading. It uses preLOCK presence/direction and future price research labels along that fixed direction, including canceled/unpublished candidates. Train-only prior/groups, shared calendar windows, no calibration/test fitting or group choice. Candidate rows need not have32 anchors. Explicit sample/uncertainty gates, no execution WIN/LOSS claim.
+
+All research is HISTORICAL_EXPLORATION with independent/forward confirmation required. Legacy Bayesian/logistic native activation remains separate. No deep/candidate artifact can import/activate into the EA, no broker orders, no XAUUSD/news branch. An offline pass is insufficient for production.
+
+V214 execution observation: schema3 numeric analysis_start, gap classification, guard values; binary POD schema2 unchanged. execution_journals verifies sealed BACKTEST_MT4 or stable LIVE_MT4 copies directly without model fitting. Old observer schemas1/2 and Windows datetime text remain supported. sequence_data/candidate quality and deep model kinds intentionally retain V213 contract names because the feature/label semantics are unchanged.

@@ -1,0 +1,174 @@
+{
+  "baseline": "Final V2.16",
+  "baseline_archive_sha256": "54d37019faf98ddbb827af25eaa899c23860bb694119a257c28f232666d32c19",
+  "includes": [
+    {
+      "file": "AdvancedLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "e6908546e85d35adf06f97deba99b38e0d9e5c11574b3e7b745ad134d8c49cad",
+      "current_sha256": "d518b639fd962bd65df6c5899dca7e4f094f2e49a602d7fb71543574f4b476b9"
+    },
+    {
+      "file": "CandidateDiagnostics.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "7e14911cbda0418f92db7578faa048589fee1e0224b29b5e716f37d5abf69a2f",
+      "current_sha256": "c2df00a20eaf05b9ac31ebc505ea08ed6aebe07b972e6623a6afef038add79cb"
+    },
+    {
+      "file": "Candle.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "8684a17160379c60bcb1b1f6a1c78ebeb7343c9294d2288d33bfe33fa7184540",
+      "current_sha256": "586a3edfe164cf0f31375df322e3b6bc57993a08aa2b4b32f1f74ba8d5c9d3aa"
+    },
+    {
+      "file": "Clock.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "495fef539e0c245739d528f68619ef78f580da5c7cd3f1ddba24ba66e8107599",
+      "current_sha256": "1fe53e7e8727c268687dc7c7e0de4b08b2de0a039cb3be921ef70de8a630b4bf"
+    },
+    {
+      "file": "Context.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "0b2d98d6cb9923603aa0caaf6442927b2d1337ea0d981813b676d778ec6818ee",
+      "current_sha256": "9baf93d10588163895a66f1eb35885d148cdb138b0e0b5cc9b35e2f2800cce98"
+    },
+    {
+      "file": "Contract.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "df0642c8217c09d1e34d88fab8a44a31be94b51a20361ffbb07a059cfc8cd9ff",
+      "current_sha256": "3d0b845a8a29bc0936cee208f66d02033cb52ae585bc88b7a3ccd7737d1e17f9"
+    },
+    {
+      "file": "Decision.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "dfbf308a0723e0693c74eed29fe6c151db502f3b35c0b76fc6ab89355a535df0",
+      "current_sha256": "f968bbde2071e5272e76d68ce8cb8156d36b798ced45a250cc67085789e78118"
+    },
+    {
+      "file": "DemoLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "ad36ac74b2f9dcae5eabc40ba845e1cb92255e6213e0879238903333aa69d47b",
+      "current_sha256": "1d20df0b01492c866234828ff233db24b8692ba2e5e5f5374a727752b5735f80"
+    },
+    {
+      "file": "Episode.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "01dd519af65c895ddba25f011c7e2fffcbedbfbac9c14227aea58e1fbb5464b9",
+      "current_sha256": "9233083727b1101e8696f14263c663f1374c3b3a7cdfd89b8c035aa0416ce726"
+    },
+    {
+      "file": "Forecast.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "891222c4da2b7a27377c7ab89dc8e0230129947680a6b295604b3a6f1d21a728",
+      "current_sha256": "f6d558d647f26a40874444d67bb99cc098d61e4e387ad17c1464149d6889cb81"
+    },
+    {
+      "file": "History.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "d390a86966d069a093d4fb1b1ebaada577322b5b331367b9773ab68aac0d3de2",
+      "current_sha256": "ed2478d17ee6633d88c19dedddfeceb6d0efa398d7a54ef2acfb688ddbaa7e92"
+    },
+    {
+      "file": "Journal.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "7b40857425765d816ef8a7c725b73691af90fae69b9e7e0627b840852126aedb",
+      "current_sha256": "4d1d68af7d717848b08fec338d31f8d8870ff8b36fc65293df9f6dc4ef620ea2"
+    },
+    {
+      "file": "Market.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "5c03998345677b9b9c19e6cc5a24ff6e7d00666025250a0434dc208f1c4bce69",
+      "current_sha256": "36b9a20c68f3d9e4cc0b47c1fbe3a367853cb12b640a6a21b06110120f90cc51"
+    },
+    {
+      "file": "MarketContext.mqh",
+      "unchanged_after_namespace_normalization": false,
+      "baseline_sha256": "61e1fe159d0197b59c3a7ea4c084d6746c479d16ffaaf5eec9213655646c426e",
+      "current_sha256": "8c61cf624bba6b195ab0fa8246f10818c145c63da604948e6db97f314b1d42d2"
+    },
+    {
+      "file": "Momentum.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "239a9ec269922b25fd18438d1237b9c7790f03473f5e1d4e662f2eec461a9c25",
+      "current_sha256": "509dfc8a0683bfac010be4ecd2f8e2abff63639ce5a857bb188254e1d4e226a0"
+    },
+    {
+      "file": "Origin.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "9fcb2a7c342020232c4d50cb09ea5bae667f55d39b468d49e58cfa56a6e8f593",
+      "current_sha256": "008289e0df4dc0b171c5e50b735411fc71fce455e8674458e0113fce9f5e32a0"
+    },
+    {
+      "file": "Outcomes.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "2a4be81cb670018696b386086a8b5832513704df0e94d97ac3c37372c30e5ab0",
+      "current_sha256": "21f7578f0055e33d17d883550ced01a5f0ba51aed174c385c04bc70070e5437a"
+    },
+    {
+      "file": "Regime.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "b3ed119958e60c53f7790c2e852285dbf222129c265fa781af425a5007ad5e43",
+      "current_sha256": "0b370ffe4683266ecbbee4ff0bcf39d7b5c554fe35fe469685674068043157d9"
+    },
+    {
+      "file": "RuntimeDiagnostics.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "e16ce1f2c4385327a3bc44629ea8580d952975277906c51eec9be384f49e8981",
+      "current_sha256": "8581eb1aacf5a0fef295762b3364d7b575f73732dcd9cf02dafd9e1632918160"
+    },
+    {
+      "file": "Structure.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "aa64ac7f311964439d06a83a02538a38f3f2ab2ca32b6475076f7a0ed739340b",
+      "current_sha256": "ba2faf54b7444e696a987a3ee91ec2b89057ae21c03b2f076b8aae5a015a8d07"
+    },
+    {
+      "file": "TesterDashboard.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "d37103d01a8520f8fcaf7941ae48feae97b260de844035fe1be50c6472f27030",
+      "current_sha256": "5728e9978d762468da5416fc74966d5af6b4747af82b7f7e2dca91107e11f837"
+    },
+    {
+      "file": "Trend.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "current_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b"
+    },
+    {
+      "file": "Types.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "f78a7fe123b2b0aa36c2193f8b49f406f3ce5b072d68c540bed939a9a489a8cd",
+      "current_sha256": "76160f8bcaaf207799de28cf5e32e34db5fef01eec77845dc9b695d00be18417"
+    },
+    {
+      "file": "UI.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "4c89b67cd7208e4c40a2149b5ec3016f2be4406ec12851533c85f123439c2373",
+      "current_sha256": "44fc2cee81b27736f21915f5ac5d223afdfbc762400d7431f6d09c8434827298"
+    },
+    {
+      "file": "Validation.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "019a5d971626f4ec77929b20786302200c5044c139a3a24f22ba2e843d88d109",
+      "current_sha256": "52d0efd025397a5036826cf2155bc729237dfbdb6ec3ab1547b513d36e31ac51"
+    },
+    {
+      "file": "Volatility.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "cbb67403c2ca48e44d0e633d72dce657ef40628ec2d6eae61355f300b76af0f7",
+      "current_sha256": "09c7034fb77e29d10b4e2785c3f78990b116a214268c78dfd3b544fd67a8d04f"
+    }
+  ],
+  "native_guard_change": false,
+  "adapter_decision_functions": {
+    "BOProcess": "8f6af11ca011f6569f30b0c24cdb26c4249a354116f130802ab7ba87cfa73e50",
+    "BOResolve": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+    "BORefreshHistory": "31338799438804999a10503b2f60d77397587cd6f924eab1292c2ec6fde8546f",
+    "BOLoadBars": "a16fe757da7b4d4555fbc3cd5da00fb0c3e1b022fdc2e91387e3ea35924f370c",
+    "BORecordCurrent": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+    "OnInit": "060c4a979998069bab48a137b03558ae0cf9ae9e6fe97f8dc074726746a2745e",
+    "OnDeinit": "86bfca2ee1df1a2f45d7e8c3ceb5c3e43d032de6268393b594f1c3d0fb0c0b79"
+  },
+  "clock_observer_schema": 2,
+  "session_clock_ttl_ms": 900000
+}

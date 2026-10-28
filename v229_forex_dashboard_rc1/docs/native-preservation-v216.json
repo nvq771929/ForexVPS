@@ -1,0 +1,171 @@
+{
+  "baseline": "Final V2.15",
+  "baseline_archive_sha256": "b74e2b9b61baed77c5780ad97bbc1b10f572e61266d7525c60b4937bb2144fd8",
+  "includes": [
+    {
+      "file": "AdvancedLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "0b511086deee8f20c383145e77a65876422d56578bceea0bd1c2d10e3247f1b4",
+      "current_sha256": "e6908546e85d35adf06f97deba99b38e0d9e5c11574b3e7b745ad134d8c49cad"
+    },
+    {
+      "file": "CandidateDiagnostics.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "d431df13bddbb7980e11aabb7ec786fafd368570b8d6fdd68ef46eea9fe9b037",
+      "current_sha256": "7e14911cbda0418f92db7578faa048589fee1e0224b29b5e716f37d5abf69a2f"
+    },
+    {
+      "file": "Candle.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "5af854d1168b15c05f6955df2a04aaf3580c46dd5707cbd057453c4306867eab",
+      "current_sha256": "8684a17160379c60bcb1b1f6a1c78ebeb7343c9294d2288d33bfe33fa7184540"
+    },
+    {
+      "file": "Clock.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "3400c6894f2ec026d89e16862fc68c067aa9372e786fbf040ae356e8552f1152",
+      "current_sha256": "495fef539e0c245739d528f68619ef78f580da5c7cd3f1ddba24ba66e8107599"
+    },
+    {
+      "file": "Context.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "1af500bd2b860149f33d45289d18066c6c4ddf12b736240a69347880b65fb283",
+      "current_sha256": "0b2d98d6cb9923603aa0caaf6442927b2d1337ea0d981813b676d778ec6818ee"
+    },
+    {
+      "file": "Contract.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "07094d9853c58616f8eab523da814e6abed34c14fb43be6c65047f55ee807201",
+      "current_sha256": "df0642c8217c09d1e34d88fab8a44a31be94b51a20361ffbb07a059cfc8cd9ff"
+    },
+    {
+      "file": "Decision.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "82b6c36b1456ea3eeb0d9eee20d1432b8063edb2444bd0fa74840cba0d1f3ee3",
+      "current_sha256": "dfbf308a0723e0693c74eed29fe6c151db502f3b35c0b76fc6ab89355a535df0"
+    },
+    {
+      "file": "DemoLearning.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "0e9c5f2036c76f41b4136488e5ee4b99633ab01ac5cbb6843dfa2033e9d530b3",
+      "current_sha256": "ad36ac74b2f9dcae5eabc40ba845e1cb92255e6213e0879238903333aa69d47b"
+    },
+    {
+      "file": "Episode.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "c799e91e89aef966f1b640854267dd607a30007cd7b831054d6b0f99d036f6a5",
+      "current_sha256": "01dd519af65c895ddba25f011c7e2fffcbedbfbac9c14227aea58e1fbb5464b9"
+    },
+    {
+      "file": "Forecast.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "6c581beb705381393c4f2744a4e8005c6e59edb9d93b4b9688778c7be9902e27",
+      "current_sha256": "891222c4da2b7a27377c7ab89dc8e0230129947680a6b295604b3a6f1d21a728"
+    },
+    {
+      "file": "History.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "6b42c30af2a24db7d21ea70470f176fc8f13a864c0facdb6729397d9a02f9824",
+      "current_sha256": "d390a86966d069a093d4fb1b1ebaada577322b5b331367b9773ab68aac0d3de2"
+    },
+    {
+      "file": "Journal.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "4de2c448117a69ff2e2b4b91b0f031fef80d29e281509ec7109a10e284800745",
+      "current_sha256": "7b40857425765d816ef8a7c725b73691af90fae69b9e7e0627b840852126aedb"
+    },
+    {
+      "file": "Market.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "b35521a8a496ec6c4c373dda582ec6b50903bc1f0777dc88d563e8c7598da431",
+      "current_sha256": "5c03998345677b9b9c19e6cc5a24ff6e7d00666025250a0434dc208f1c4bce69"
+    },
+    {
+      "file": "Momentum.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "5090ec7184c946ba064e497889ea8ed96ef4696e7f115b7b9d7a32c8b0aff82a",
+      "current_sha256": "239a9ec269922b25fd18438d1237b9c7790f03473f5e1d4e662f2eec461a9c25"
+    },
+    {
+      "file": "Origin.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "55effb237856cd294fb2dc219b616bd8dd608992f6ebd92fd64e8d09dba36975",
+      "current_sha256": "9fcb2a7c342020232c4d50cb09ea5bae667f55d39b468d49e58cfa56a6e8f593"
+    },
+    {
+      "file": "Outcomes.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "4c99a21388f4e76b5dd5507518d9844500ade4af53f82f8057df5d48cad7afd6",
+      "current_sha256": "2a4be81cb670018696b386086a8b5832513704df0e94d97ac3c37372c30e5ab0"
+    },
+    {
+      "file": "Regime.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "1d5e38bf75a9a863f77447508008f20171959871c668238741967901697526ef",
+      "current_sha256": "b3ed119958e60c53f7790c2e852285dbf222129c265fa781af425a5007ad5e43"
+    },
+    {
+      "file": "RuntimeDiagnostics.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "a1fcaa9ff3fcdacbab0f335afce3bee43c23b37524a36b919e8b32c3d970286d",
+      "current_sha256": "e16ce1f2c4385327a3bc44629ea8580d952975277906c51eec9be384f49e8981"
+    },
+    {
+      "file": "Structure.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "aa8f4526a82a245f4d9d26a6baedcc4452ece1169b9f2d1c48debee30f5598a8",
+      "current_sha256": "aa64ac7f311964439d06a83a02538a38f3f2ab2ca32b6475076f7a0ed739340b"
+    },
+    {
+      "file": "TesterDashboard.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "eb93fe9c9210b83de2db788bdf996c0f648f5f32c7c7590ec9ed3ad673f822bc",
+      "current_sha256": "d37103d01a8520f8fcaf7941ae48feae97b260de844035fe1be50c6472f27030"
+    },
+    {
+      "file": "Trend.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "current_sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b"
+    },
+    {
+      "file": "Types.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "2a7d0d243320574fb5805afb076df5932b659119c488f15fa674cfab8f9b28ac",
+      "current_sha256": "f78a7fe123b2b0aa36c2193f8b49f406f3ce5b072d68c540bed939a9a489a8cd"
+    },
+    {
+      "file": "UI.mqh",
+      "unchanged_after_namespace_normalization": false,
+      "baseline_sha256": "1845e66c7ca33a95b609b1bde9908b441bdf1387833848ce9871d9a8cde82382",
+      "current_sha256": "4c89b67cd7208e4c40a2149b5ec3016f2be4406ec12851533c85f123439c2373"
+    },
+    {
+      "file": "Validation.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "deaafe3f84d4a65addf9269c11df7012c861dce99fccfad30a53ad9cae8d892e",
+      "current_sha256": "019a5d971626f4ec77929b20786302200c5044c139a3a24f22ba2e843d88d109"
+    },
+    {
+      "file": "Volatility.mqh",
+      "unchanged_after_namespace_normalization": true,
+      "baseline_sha256": "0dde5b93c551629ba69fe431dc0c35f546cd009cb6a9c7db1bdfcde34e2a2876",
+      "current_sha256": "cbb67403c2ca48e44d0e633d72dce657ef40628ec2d6eae61355f300b76af0f7"
+    }
+  ],
+  "new_observer": "MarketContext.mqh",
+  "native_guard_change": false,
+  "adapter_decision_functions": {
+    "BOProcess": "8f6af11ca011f6569f30b0c24cdb26c4249a354116f130802ab7ba87cfa73e50",
+    "BOResolve": "a4f6d586de22fa446789aff4f4f8464de03fc581ab99be6457145ed840a3d2ee",
+    "BORefreshHistory": "31338799438804999a10503b2f60d77397587cd6f924eab1292c2ec6fde8546f",
+    "BOLoadBars": "a16fe757da7b4d4555fbc3cd5da00fb0c3e1b022fdc2e91387e3ea35924f370c",
+    "BORecordCurrent": "e61c9cedd4492c3728b32723409e299d49e23b8200f22ec97a63f6e359f37f22",
+    "OnInit": "b340e9cd510094cef62eada23a7b55022f96fb107d28884f0c52616fdbbbd0a9",
+    "OnDeinit": "86bfca2ee1df1a2f45d7e8c3ceb5c3e43d032de6268393b594f1c3d0fb0c0b79"
+  },
+  "allowed_adapter_changes": [
+    "namespace/release metadata",
+    "observation-only clock/schedule/sidecar and UI calls"
+  ]
+}

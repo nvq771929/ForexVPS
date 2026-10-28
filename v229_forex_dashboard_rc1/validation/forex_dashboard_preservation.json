@@ -1,0 +1,210 @@
+{
+  "previous_release": "V2.28 recovery",
+  "current_release": "V2.29",
+  "scope": "Forex dashboard and explicit news path resolution only",
+  "headers": [
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/AdvancedLearning.mqh",
+      "sha256": "47ed68fc1c63907eef1eac2feb298e2f38270ccd44e5e65e6665b18bf4995fdb",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/CandidateDiagnostics.mqh",
+      "sha256": "f4b4bd1fe692e9102eadfefae6458181ac3ebc3feb7ad7367103aaf2209af69c",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Candle.mqh",
+      "sha256": "379312cdf224be2e3c3c612018d7af1155a9fe7390faf93425adb36a97c57b03",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ChartRoleV228.mqh",
+      "sha256": "052afbaa26e85124bb7b81d54813a1a8ea7a09a826e68aff83c05acd8b209bf1",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Clock.mqh",
+      "sha256": "8c2c46060937a75a395bb2e6b2d48cae045fbc8eedd2f0119f01f91af492ee5b",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ClockObservation.mqh",
+      "sha256": "16de37da24ccfe9d05cf6ee226d7a60914076164019e2e8bb4e990f3e5f38ef4",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Context.mqh",
+      "sha256": "933aa5c4d34da3bca63d89bed85ca9ceedcaf07be61c696dc85365f86759bbd6",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Contract.mqh",
+      "sha256": "464457f95d8cb08005f9fa54a45777a5e690667d9464efe757783aa1cb445696",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Decision.mqh",
+      "sha256": "46904373bf4e92a92f0bef876cad52766c5aeb005d7688760111cdbe43479a57",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/DemoLearning.mqh",
+      "sha256": "b11a609d14287eab2ed8388bfb94e2b4fb05131bd6bf40edd932364537bd1ba9",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/EmbeddedContext.mqh",
+      "sha256": "20f975dec24a46fbdb3f41357a78a1bf92ab094dd31e063f5505ebf76ae25e4a",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/EmbeddedObserver.mqh",
+      "sha256": "38e484888b3acbc503b826800fec6e245e37ab01d15329f3981ef9fed06d13fb",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/EmbeddedStorage.mqh",
+      "sha256": "54acd85b72b3381b801ab830afa1bacb21cffcdf024a89ce1a920b63acda7360",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Episode.mqh",
+      "sha256": "780be80952194ed5824c51e22e63e53fa71876c40d8907263c0339ed9b92924d",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Forecast.mqh",
+      "sha256": "4f6f06456c99890b4a23ab8f0d8864073de913d03f856f2541e6edaf231e49a4",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ForexAverage.mqh",
+      "sha256": "5a95de243fbc718e17de0ff90f68fcd716066edb0369c66718490610622a00fa",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ForexEngine.mqh",
+      "sha256": "4a46069c23634a0866440733391520030a07bd70ad06aa100896495546384432",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ForexNews.mqh",
+      "sha256": "eeba3a651c42d117c57542c919347dfb9451a96e0767e6b6502a242c1659eb84",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ForexProtection.mqh",
+      "sha256": "f7885484441c08b507b1d7beeb54ae2d26a04772f00edb415af1c463f0052dbf",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ForexRisk.mqh",
+      "sha256": "718523ab9624033988cca9cb4c2cabbf8194cf2b282cc8d328abb350772e3a35",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/History.mqh",
+      "sha256": "003218ae658e59c067deade719225bd23000d74fcada83c094b0d1108fadf7f9",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Journal.mqh",
+      "sha256": "d040316d547f327d4273e1d3d9b5630ec1a53195729e18d45bb2a2f05adab8c6",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/LearningDialogue.mqh",
+      "sha256": "801e680e9552be650613cf8ec82536d6c525e32d2dc51cfeedeec881e7be3a0f",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/ManualSignals.mqh",
+      "sha256": "7862fe400baf55a0333ee76741aa69eff8128f1e786015c1aea4da7087a17d64",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Market.mqh",
+      "sha256": "f725b6e559e5ff755bbf0e20824ca1c6de0ce14031e8604d23f7e330af8b00c3",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/MarketContext.mqh",
+      "sha256": "ab31b1d2d8017857f3b59041e0c66937c37672a9b292d23edf713d5e20fcfe42",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Momentum.mqh",
+      "sha256": "4dea18558feaeb2bcebc78cbc66b6f6abd0342e0c42b03acf3557fd4c6b1e1f9",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Origin.mqh",
+      "sha256": "15e051e32d6f213f04b13a9ecda9648c2d11ee9cbd04833fe12e6aa6cfa469ce",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Outcomes.mqh",
+      "sha256": "3080771e22222c420043936790021b0ae79977a46fdad8b66034e0c3393f3864",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Regime.mqh",
+      "sha256": "860490a553681d288294531c034761da21df564d5f09e7d95f6af3b083e7d88b",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/RuntimeDiagnostics.mqh",
+      "sha256": "9c0ba3be5b808a209df6ecee8174f95b58673b918b9c60f3b01c0c2e863af8a2",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/SlotDiagnostics.mqh",
+      "sha256": "bb83f7f24241fa3987691f7505adfa47ab442d8a6f69d636b72876bb67470757",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Structure.mqh",
+      "sha256": "2508b872fe61f89ed88af743ae74d428da1cf595c3e757cfc3e932c550d8db27",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/TesterDashboard.mqh",
+      "sha256": "8dbe1577449d4dd417419524266f8e7286d9ca4a0139496e8aff17179aea0723",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Trend.mqh",
+      "sha256": "959c2015d116b66f98a59aa3ce27b2586ad2e921e895f865fa9af6537720500b",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Types.mqh",
+      "sha256": "21f1ab69d3484c6c3fd2e613a704e8c3f8fcd94e02a53415762e06ad30b47303",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/UI.mqh",
+      "sha256": "5bb042b9eae7d7d00c41d1e68ef25cf70e76233f7662ad0dc3cfc29e76f2f0d7",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Validation.mqh",
+      "sha256": "c53be98dc79e945f55de3e25b56cc38f3d270bf67f1ce947ffdf77f115d8ae43",
+      "identical_to_v228": true
+    },
+    {
+      "path": "mt4/Include/EURUSD_M5_V224/Volatility.mqh",
+      "sha256": "37bb9f4eb26aa4393a80c9acf1112e3ba3009069be13d455aede08db80b7d7bb",
+      "identical_to_v228": true
+    }
+  ],
+  "added_native_header": "mt4/Include/EURUSD_M5_V224/ForexDashboard.mqh",
+  "binary_ui_changed": false,
+  "trading_guards_changed": false,
+  "broker_connected_during_tests": false,
+  "news_contract": "V222_FOREX_NEWS_V1",
+  "chart_role_contract": "V228_CHART_ROLE_V1",
+  "metaeditor_compiled": false,
+  "windows_display_validated": false
+}

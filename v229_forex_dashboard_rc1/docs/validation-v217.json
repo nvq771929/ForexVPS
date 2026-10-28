@@ -1,0 +1,51 @@
+{
+  "software_version": "2.17",
+  "automated_tests_passed": 160,
+  "skipped": 0,
+  "native_golden_cases_byte_identical": 18,
+  "clock_probe_quiet_ms": [
+    4900,
+    18400,
+    60000,
+    900000
+  ],
+  "legacy_clock_valid": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "new_clock_valid": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "clock_expiry_pc_jump_offset_change_and_uint_wrap_verified": true,
+  "calibration_ttl_ms": 900000,
+  "native_guards_changed": false,
+  "market_context_schema": 2,
+  "legacy_schema1_readable": true,
+  "metaeditor_compiled": false,
+  "windows_runtime_validated": false,
+  "calendar_live_verified_in_cloud": false,
+  "resume": {
+    "v216_journal_reopened": true,
+    "policy_unchanged": true,
+    "old_file_bytes_unchanged": true,
+    "old_sample_ids_preserved": true,
+    "legacy_context_schema1_readable": true,
+    "records_before": 5,
+    "records_after": 6,
+    "native_result": {
+      "init": 0,
+      "learning_status": "COLLECTING",
+      "bad": 0,
+      "advanced_status": "COLLECTING",
+      "advanced_id": 0,
+      "models": 0,
+      "wins": 0
+    },
+    "trust": "C++ MT4 API shim and Python decoder; not a Windows runtime test"
+  }
+}
