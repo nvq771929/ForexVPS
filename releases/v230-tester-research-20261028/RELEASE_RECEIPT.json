@@ -1,0 +1,21 @@
+{
+  "release": "V2.30_RESEARCH",
+  "archive": "ForexVPS_V230_Tester_Research_ATR_8_Presets.zip",
+  "sha256": "453ab654b2b6774b57772264d3f34402b84dbf7a6fcf5a1f2fac53114d3f8188",
+  "entries": 108,
+  "preset_count": 8,
+  "crc_and_manifest_verified": true,
+  "source_tests": {
+    "research": 8,
+    "baseline_root": 375,
+    "baseline_supervisor": 76,
+    "skips": 0
+  },
+  "extracted_bundle_tests_passed": 8,
+  "metaeditor_compiled": false,
+  "ex4_included": false,
+  "mt4_order_backtest_completed": false,
+  "news_mode": "TESTER_PRICE_ONLY_NO_NEWS",
+  "operating_v229_modified": false,
+  "baseline_commit": "4b0ca1a0c1b617f3f8d63e20f18b1fcafd89fbc8"
+}

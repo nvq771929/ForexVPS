@@ -1,0 +1,23 @@
+{
+  "release": "V2.30_RESEARCH",
+  "purpose": "Strategy Tester only: isolated minimum ATR gate comparison",
+  "baseline_commit": "4b0ca1a0c1b617f3f8d63e20f18b1fcafd89fbc8",
+  "expert": "EURUSD_M5_Intelligence_V230_Research.mq4",
+  "preset_count": 8,
+  "minimum_atr_pips": [3, 2.5, 2, 1.5, 1.25, 1, 0.75, 0],
+  "preserved_native_headers": 40,
+  "research_tests_passed": 8,
+  "baseline_root_tests_passed": 375,
+  "baseline_supervisor_tests_passed": 76,
+  "test_skips": 0,
+  "validation_platform": "Linux C++17 API shim and Python tests; not native MetaEditor",
+  "metaeditor_compiled": false,
+  "compiled_ex4_included": false,
+  "mt4_order_backtest_completed": false,
+  "profitability_validated": false,
+  "news_mode": "TESTER_PRICE_ONLY_NO_NEWS",
+  "live_or_demo_chart_initialization_allowed": false,
+  "optimization_allowed": false,
+  "models_enabled": false,
+  "operating_v229_modified": false
+}
