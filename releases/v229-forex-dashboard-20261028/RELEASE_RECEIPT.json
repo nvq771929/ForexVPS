@@ -1,0 +1,23 @@
+{
+  "release": "V2.29",
+  "artifact": "ForexVPS_Intelligence_V229_Full_RC1_ForexDashboard_Demo_Real.zip",
+  "sha256": "8025c50df61041c679bdbc7e81e96cc67a900c44d967d9a9df5638a0c5ed9a21",
+  "files": 422,
+  "bytes": 1118865,
+  "source_tests_passed": 375,
+  "supervisor_tests_passed": 76,
+  "skipped": 0,
+  "source_commit_tested": "70e97791d1f325a371411bb7129c097f45885227",
+  "all_39_v228_headers_byte_identical": true,
+  "source_install_mirror": true,
+  "zip_crc_verified": true,
+  "manifest_verified": true,
+  "forex_dashboard_read_only": true,
+  "native_orders_and_journals_dashboard_on_off_parity": true,
+  "news_folder_resolution_tested": true,
+  "separate_terminal_and_ea_permissions_displayed": true,
+  "native_metaeditor_compiled": false,
+  "windows_dpi_display_validated": false,
+  "user_reported_v228_news_worker": "FETCH_OK, FRESH, 14 events; later Forex NEWS_CLEAR in supplied screenshots",
+  "market_profitability_validated": false
+}

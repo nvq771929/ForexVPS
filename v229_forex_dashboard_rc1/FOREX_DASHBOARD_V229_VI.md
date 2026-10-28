@@ -52,6 +52,11 @@ trong Dashboard Forex. Giao diện Binary được giữ nguyên.
    EURUSDz, phân tích M5. Đối chiếu symbol và giờ broker thực tế trước khi dùng.
 5. Điều chỉnh bảng bằng các input có sẵn:
 
+Nếu chỉ nâng giao diện Forex, có thể thay Expert ngay trên chart Forex bằng
+V229 và giữ chart Binary V228 đang chạy. Các header cũ và hợp đồng bridge/role
+không đổi. Không gắn thêm một Forex manager trên chart thứ ba để chạy song song
+với manager cũ; khóa chống quản lý cạnh tranh vẫn được giữ.
+
 | Input | Tác dụng với Forex |
 |---|---|
 | `PanelFontName` | Font, mặc định Arial |
@@ -97,6 +102,9 @@ Hai chart Binary/Forex trên cùng tài khoản Demo dùng chung Data Folder.
 Forex dùng bridge **Forex** riêng. Binary NEWS_CLEAR không thay thế việc cập nhật
 bridge Forex. Bộ lọc Forex tiếp tục chặn Entry nếu lịch thiếu/cũ/không xác thực.
 Việc nhận diện đường dẫn không bỏ qua các kiểm tra checksum/freshness hoặc tin.
+Mỗi Data Folder chỉ chạy một worker Forex news. Nếu chuyển sang script V229,
+dừng cửa sổ Forex news cũ bằng Ctrl+C rồi mở script mới; không xóa file lock.
+Worker Binary riêng vẫn có thể chạy cùng lúc.
 
 ## AutoTrading ON nhưng chart Forex vẫn báo OFF
 
