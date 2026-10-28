@@ -38,6 +38,10 @@ double AccountEquity(){return fakeEquity;}
 double AccountMargin(){return fakeMargin;}
 double AccountFreeMargin(){return fakeFreeMargin;}
 string AccountCurrency(){return "USD";}
+bool fakeExpertEnabled=true,fakeEAAllowed=true;
+#define MQL_TRADE_ALLOWED 41
+bool IsExpertEnabled(){return fakeExpertEnabled;}
+long MQLInfoInteger(int){return fakeEAAllowed;}
 bool IsTradeAllowed(){return fakeTradingAllowed;}
 bool IsTradeContextBusy(){return fakeTradeBusy;}
 double SymbolInfoDouble(const string&,int){return fakeTickSize;}

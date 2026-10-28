@@ -35,6 +35,9 @@ int main(int argc,char**argv){
  if(scenario==713)ForexUseDashboard=false;
  if(scenario==715)TradingMode=BinaryOption;
  if(scenario==720)ForexMaxHoldMinutes=0;
+ if(scenario==721){fakeExpertEnabled=false;fakeTradingAllowed=false;}
+ if(scenario==722){fakeEAAllowed=false;fakeTradingAllowed=false;}
+ if(scenario==723){fakeTradeBusy=true;fakeTradingAllowed=false;}
  int init=OnInit();long now=0;BOClockTick(TimeCurrent(),now);
  if(scenario==704)fxDayHalted=true;
  if(scenario==705)fxHealthy=false;
@@ -165,6 +168,18 @@ int main(int argc,char**argv){
     def test_no_time_limit_preset_is_displayed_as_unlimited(self):
         text=self.text(self.render(720));self.assertIn('Giu: KHONG GIOI HAN',text)
         self.assertNotIn('Giu toi da 0 phut',text)
+
+    def test_global_autotrading_and_per_ea_permission_are_distinguished(self):
+        text=self.text(self.render(721))
+        self.assertIn('AUTOTRADING MT4 DANG TAT',text)
+        self.assertIn('AutoTrading MT4: OFF | Allow live trading EA: ON',text)
+        text=self.text(self.render(722))
+        self.assertIn('EA CHUA DUOC CAP QUYEN',text)
+        self.assertIn('AutoTrading MT4: ON | Allow live trading EA: OFF',text)
+
+    def test_busy_trade_context_is_not_reported_as_a_disabled_autotrading_button(self):
+        text=self.text(self.render(723));self.assertIn('TRADE CONTEXT DANG BAN',text)
+        self.assertIn('AutoTrading MT4: ON | Allow live trading EA: ON',text)
 
 
 class ForexDashboardPreservationTests(unittest.TestCase):

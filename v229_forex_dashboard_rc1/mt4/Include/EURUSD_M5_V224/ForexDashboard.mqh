@@ -87,7 +87,13 @@ void FXDashboardComment(string legacyText) {
    string headline=own>0 ? "CO VI THE MO" : "CHO DIEU KIEN VAO LENH";color statusTone=own>0 ? clrAqua : clrGold;
    if(!fxSettings.enabled && own==0){headline="TAM DUNG MO LENH";statusTone=clrSilver;}
    if(account=="REAL" && !fxSettings.allowReal && own==0){headline="CHUA CHO PHEP REAL";statusTone=clrGold;}
-   if(!IsTradeAllowed()){headline=own>0 ? "CO VI THE | QUYEN MT4 TAT" : "QUYEN GIAO DICH MT4 TAT";statusTone=clrGold;}
+   if(!IsTradeAllowed()) {
+      headline=own>0 ? "CO VI THE | GIAO DICH BI CHAN" : "QUYEN GIAO DICH MT4 TAT";
+      if(!IsExpertEnabled())headline="AUTOTRADING MT4 DANG TAT";
+      else if(!MQLInfoInteger(MQL_TRADE_ALLOWED))headline="EA CHUA DUOC CAP QUYEN";
+      else if(IsTradeContextBusy())headline="TRADE CONTEXT DANG BAN";
+      statusTone=clrGold;
+   }
    if(!IsConnected()){headline="MAT KET NOI BROKER";statusTone=clrTomato;}
    if(fxDayHalted){headline="DA CHAM GIOI HAN LO NGAY";statusTone=clrTomato;}
    if(!fxHealthy){headline="LOI LUU TRU | CHAN MO MOI";statusTone=clrTomato;}
@@ -134,6 +140,7 @@ void FXDashboardComment(string legacyText) {
    double spread=quote ? (q.ask-q.bid)/.0001 : -1;
    FXDashboardRow(row,y,"Spread: "+(quote ? DoubleToString(spread,2)+" pip" : "N/A")+" | Gioi han "+DoubleToString(fxSettings.maxSpreadPips,2)+" pip",size,spread>=0 && spread<=fxSettings.maxSpreadPips ? clrWhiteSmoke : clrGold);
    FXDashboardRow(row,y,"Ket noi: "+FXDashboardFlag(IsConnected())+" | Quyen MT4: "+FXDashboardFlag(IsTradeAllowed())+" | Real opt-in: "+FXDashboardFlag(fxSettings.allowReal),small,IsConnected() && IsTradeAllowed() ? clrLimeGreen : clrGold);
+   FXDashboardRow(row,y,"AutoTrading MT4: "+FXDashboardFlag(IsExpertEnabled())+" | Allow live trading EA: "+FXDashboardFlag(MQLInfoInteger(MQL_TRADE_ALLOWED)!=0),small,IsExpertEnabled() && MQLInfoInteger(MQL_TRADE_ALLOWED) ? clrWhiteSmoke : clrGold);
    FXDashboardRow(row,y,"Loc tin: "+(fxSettings.newsFilter ? fxNewsStatus : "TAT"),size,fxSettings.newsFilter && fxNewsStatus=="NEWS_CLEAR" ? clrLimeGreen : clrGold);
    if(fxNewsSelected>=0 && fxNewsSelected<fxNewsCount)FXDashboardRow(row,y,"Tin lien quan: "+fxNewsLabels[fxNewsSelected],small,clrGold);
    string age=quote && now>0 && now>=(long)q.time*1000 ? DoubleToString((now-(long)q.time*1000)/1000.0,1)+"s" : "N/A";

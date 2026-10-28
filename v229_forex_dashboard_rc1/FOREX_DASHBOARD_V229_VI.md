@@ -21,7 +21,7 @@ từng byte. Thêm duy nhất `ForexDashboard.mqh`; không thay logic giao dịc
 | Giới hạn ngày | Giảm Equity từ mốc EA đã lưu, mức giới hạn và trạng thái khóa; lượt vào, chuỗi thua, cooldown còn lại |
 | Vị thế của EA | Số lệnh, BUY/SELL, ticket, lot, giá vào, SL/TP, P/L gồm swap/commission, tổng P/L thả nổi của đúng EA |
 | Thời gian giữ | Thời gian đã giữ/còn lại theo birth gốc đã lưu, kể cả residual sau partial close; MM:SS và hạn giờ broker |
-| Điều kiện vận hành | Spread hiện tại/giới hạn, kết nối, quyền giao dịch MT4, quyền Real, trạng thái lịch tin, giờ broker, tuổi quote |
+| Điều kiện vận hành | Spread hiện tại/giới hạn, kết nối, AutoTrading MT4, Allow live trading của EA, quyền tổng hợp hiện tại, quyền Real, lịch tin, giờ broker, tuổi quote |
 | Bảo vệ | Break-even, trailing, thời gian giữ tối đa, bình quân giá, lịch broker, emergency-close theo cấu hình |
 | Kết quả/nhật ký | Số lệnh đóng và net trong lịch sử MT4 đang tải; đường dẫn nhật ký Forex |
 
@@ -97,6 +97,20 @@ Hai chart Binary/Forex trên cùng tài khoản Demo dùng chung Data Folder.
 Forex dùng bridge **Forex** riêng. Binary NEWS_CLEAR không thay thế việc cập nhật
 bridge Forex. Bộ lọc Forex tiếp tục chặn Entry nếu lịch thiếu/cũ/không xác thực.
 Việc nhận diện đường dẫn không bỏ qua các kiểm tra checksum/freshness hoặc tin.
+
+## AutoTrading ON nhưng chart Forex vẫn báo OFF
+
+Nhãn AutoTrading cũ thực chất lấy `IsTradeAllowed()`: quyền tổng hợp tại thời
+điểm kiểm tra, có thể false vì chưa cho phép EA giao dịch hoặc trade context bận.
+V2.29 tách rõ ba thông tin: nút AutoTrading chung (`IsExpertEnabled()`), quyền
+Allow live trading của EA (`MQLInfoInteger(MQL_TRADE_ALLOWED)`) và quyền tổng hợp
+`IsTradeAllowed()`. Khi trade context bận, bảng hiển thị riêng nguyên nhân đó.
+
+Trên đúng chart Forex: F7 → Common → Allow live trading → OK; nút AutoTrading
+chung của MT4 cũng cần bật. Với Demo, giữ `ForexAllowRealTrading=false`: cờ này
+chỉ chặn tài khoản Real. Preset không tự cấp quyền Common/AutoTrading của MT4.
+Chart Binary vẫn chỉ quan sát; không cần quyền đặt lệnh để phát tín hiệu.
+Dashboard chỉ đọc các cờ, không bật chúng hoặc bỏ qua các điều kiện vào lệnh.
 
 ## Kiểm chứng
 
