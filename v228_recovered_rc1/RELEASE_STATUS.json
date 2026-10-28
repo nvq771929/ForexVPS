@@ -8,9 +8,9 @@
   "data_contract_version": "2.07",
   "source_baseline": "V2.03 R10 signal core",
   "previous_version_required": false,
-  "automated_tests_passed": null,
-  "learning_tests_passed": null,
-  "automated_tests_skipped": null,
+  "automated_tests_passed": 350,
+  "learning_tests_passed": 76,
+  "automated_tests_skipped": 0,
   "native_metaeditor_compiled": false,
   "windows_terminal_validated": false,
   "market_performance_validated": false,
@@ -167,5 +167,12 @@
   "current_diagnostics_separate_from_frozen_models": true,
   "manifest": "MANIFEST_SHA256.json",
   "recovered_release": true,
-  "original_v228_byte_identity_verified": false
+  "original_v228_byte_identity_verified": false,
+  "native_header_changes": "None: all 37 original V226 headers byte-identical; adapter scopes the observation-only clock wrapper around the ForexEngine include",
+  "dual_chart_semantics_validated": true,
+  "clock_observation_contract": "V227_CLOCK_OBSERVATION_V1",
+  "chart_role_contract": "V228_CHART_ROLE_V1",
+  "real_demo_presets_included": true,
+  "inherited_historical_corpus_audits_rerun": false,
+  "remote_backup_verified": false
 }

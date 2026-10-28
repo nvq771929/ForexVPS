@@ -76,6 +76,6 @@ test_watch_background_worker_ingests_labels_without_ea_writes (test_supervisor.N
 test_withheld_and_no_signal_do_not_train (test_supervisor.NativeCompatibility.test_withheld_and_no_signal_do_not_train) ... ok
 
 ----------------------------------------------------------------------
-Ran 76 tests in 24.661s
+Ran 76 tests in 20.009s
 
 OK

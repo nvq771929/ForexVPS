@@ -1,0 +1,20 @@
+{
+  "artifact": "ForexVPS_Intelligence_V228_Full_RC1_Recovered_Demo_Real.zip",
+  "sha256": "8cfb5fef411420c319f491bcd29bea4ee9a05741061dd077933ecce102a1c593",
+  "bytes": 1062672,
+  "files": 413,
+  "tests": {
+    "source": 350,
+    "supervisor": 76,
+    "skipped": 0
+  },
+  "source_tested_commit": "f597558b0a5e6c9d4879daf44e58da48dba3d30e",
+  "crc_verified": true,
+  "manifest_verified": true,
+  "source_install_mirror_verified": true,
+  "all_37_inherited_headers_byte_identical": true,
+  "original_v228_byte_identity_verified": false,
+  "metaeditor_compiled": false,
+  "windows_pilot_validated": false,
+  "live_calendar_verified": false
+}
