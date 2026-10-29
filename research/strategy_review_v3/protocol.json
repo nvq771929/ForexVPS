@@ -1,0 +1,41 @@
+{
+  "contract": "EA_STRATEGY_REVIEW_V3_EXITS_AND_STABILITY",
+  "stage": "KNOWN_HISTORY_OHLC_REFERENCE_NOT_NATIVE_EA_OR_PLATFORM_EXECUTION",
+  "source_sha256": "af3bc3327806ee6ab2d8f92921b61b6e418f72646b49dd86a2155c8f02e5877c",
+  "signals": "All15 fixed v2 contracts unchanged, every candidate; verify archive hash and control labels. No selection of prior8positive models.",
+  "signals_sha256": "5764cd700410633618f0180a86fdd4626e66eeaf807ade65aa9e1c7941cb3d4c",
+  "models_or_parameters_selected": false,
+  "untouched_holdout_available": false,
+  "forex": {
+    "policies": ["ATR_FIXED_CONTROL", "STRUCT_FIXED", "STRUCT_BE", "STRUCT_BE_TRAIL"],
+    "holds_minutes": [30,60,120],
+    "paths": ["stop_first","take_first"],
+    "combined_roundtrip_fee_pips": [0.01,0.31,0.51],
+    "cost_assumptions": "Advertised-minimum commission sensitivity0.01pip, with additional slippage0/0.3/0.5pip. Specific EURUSDz commission remains unverified; standard100000EUR lot and USD account assumed. Spread0, no swap.",
+    "initial_plan": "ATR control exactly v2. Structural uses frozen candidate invalidation and entry price: reject invalidation on wrong side; stop distance=max(structural_distance,1.5ATR,6pips,0.2pip); round price outward to0.00001, reject >30pips, TP2R. Broker stop/freeze levels assumed0, not verified.",
+    "invalidation": "Native ATR3/ATR0, SR1 and BR1 use frozen Forecast. TP1 and its six ablations use frozen TP invalidation formula with declared EMA direction. Three v1 nonnative hypotheses use trigger low-0.10ATR for long/high+0.10ATR for short as a declared structural proxy, not native candidate stop.",
+    "management": "Only at observed M5 opens, after old broker barriers and time exit; never consume present-bar high/low before modification. BE at observed profit>=1R, price offset0.5pip. Trailing at>=1.5R, distance=max(1.5closedATR,3pip), improve>=0.5pip. Round away from quote, enforce0.2pip quote/target gap; never loosen SL or change originalR, birth or TP. Native5second throttle irrelevant at5minute sampling; no claim of tick parity.",
+    "sampling": "One position per model/policy/hold/path; no new entry on a bar occupied at its open, same as v2. Also paired diagnostic labels for same entries resolved under all3structural policies; overlapping and not a portfolio.",
+    "primary": "hold60, stop_first, report all models/policies and fees, no best-cell promotion",
+    "paired_primary": "STRUCT_BE minus STRUCT_FIXED and STRUCT_BE_TRAIL minus STRUCT_FIXED on same resolved entry and originalSL, hold60, bothpaths. Report grossR deltas; fixed fee cancels.",
+    "gap_and_exit": "Same v2 unavailable handling, open gap stop at observed adverse price, TP capped; intrabar exits have containing-bar/upper-bound timestamps. Partial unknown outcomes excluded from means, not scored0.",
+    "excluded": ["tick-level execution","native confirmation/LOCK","news","daily caps","lot sizing/margin/compounding","broker connectivity","actual stop/freeze history"]
+  },
+  "binary": {
+    "expiry_minutes": [5,10,15],
+    "payouts": [0.70,0.82,0.90],
+    "primary_payout": 0.82,
+    "settlement": "MT4 Bid open at entry/expiry, entire intervening M5 path must exist; ties refunded primary, tie-as-loss sensitivity.5min must match v2. Overlapping reference labels at longer expiries, not actual stake portfolio or Olymp fills.",
+    "paired_horizon": "Only entries with resolved labels at all3expiries; report payout82 stake-return differences10minus5 and15minus5, weekly bootstrap. No winner selection.",
+    "costs": "No Forex commission imposed on BO. Actual platform quotes, payout and manual fills unavailable."
+  },
+  "statistics": {
+    "bootstrap_weekly_reps": 2000,
+    "seed": 20261029,
+    "breakdowns": ["month","FEB_APR","MAY_JUL","AUG_OCT","sessionUTC0_provisional"],
+    "report_cost_breakeven": "Mean gross pip per resolved sample, assumption constant pip fee and unchanged decisions; not a verified broker cost or guarantee",
+    "multiple_tests": "1080FX summaries,135BO summaries plus contrasts/descriptive groups. Unadjusted95percent intervals; no confirmatory significance claims.",
+    "stability": "Report every declared model and chronological period, no threshold or session chosen after outcomes."
+  },
+  "decision": "Do not promote from known-history proxies; positive outputs require verified costs, tick/platform validation and new forward data. Preserve operating V229."
+}
