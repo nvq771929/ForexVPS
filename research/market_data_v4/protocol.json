@@ -1,0 +1,22 @@
+{
+  "contract": "EA_MARKET_DATA_VALIDATION_V4",
+  "stage": "DATA_QUALITY_AND_OBSERVATION_CAPTURE_NO_MODEL_SELECTION",
+  "existing_quotes": "V222_FOREX_QUOTES_V1 accepted OnTick callbacks; broker_ms is BOClockTick estimated time, not independent server millisecond timestamp. Existing clock observer throttles accepted rows to one per broker second. Do not equate clock-row count with quote-row count.",
+  "new_capture": {
+    "expert": "EURUSD_Research_Recorder_V1",
+    "origin": "LIVE_MT4_CALLBACKS",
+    "demo_only": true,
+    "tester_allowed": false,
+    "trading_apis_allowed": false,
+    "output_namespace": "EA_RESEARCH_CAPTURE",
+    "quote_timestamp": "q.time broker seconds, PC UTC/local seconds and monotonic arrival counter kept separately; no fabricated broker milliseconds",
+    "completeness": "Callback sequence and END footer validate local file integrity, not broker-wide tick completeness. MT4 callback coalescing, network/server gaps and PC clock accuracy remain limitations.",
+    "heartbeat": "Separate file, never a quote or interpolated tick",
+    "bars": "Closed M5 history with observation timestamps; not tick-derived bars or proof of predecision availability at historical times",
+    "closed_orders": "Export existing closed EURUSD market orders only, preserve broker timestamps, lots, profit/commission/swap and currency. No new trade or live account action.",
+    "runtime_safety": "No native headers, model/EA-state or operating folder writes; no AutoTrading requirement or change; separate third chart"
+  },
+  "bo": "Provide actual-platform quote/payout/trade schemas with timezone-explicit ISO timestamps and source references. No MT4 Bid as platform price, no fabricated transactions; empty templates mean unavailable.",
+  "validation": "Check schema, sequences, positive finite BidAsk, nonnegative spread, monotonic callback arrival, broker/PC time regressions, footer counts, metadata and observed commission units. Do not infer real-account fees from demo or a zero-row export.",
+  "decision": "No economic backtest or deployment claims from the existing limited sample or the act of collecting data. Prior v1/v2/v3 economic protocols remain unchanged."
+}
