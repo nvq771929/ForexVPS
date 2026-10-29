@@ -1,0 +1,61 @@
+{
+  "contract": "EA_STRATEGY_REVIEW_V2",
+  "stage": "EXPLORATORY_CANDIDATE_AND_HOLDING_TIME_REFERENCE_NOT_NATIVE_EA",
+  "source_sha256": "af3bc3327806ee6ab2d8f92921b61b6e418f72646b49dd86a2155c8f02e5877c",
+  "historical_data_already_examined": true,
+  "untouched_holdout_available": false,
+  "parameter_or_model_selection": "NONE; report every declared variant, no deployment or winner promotion",
+  "models": [
+    "native_atr3_lead1", "native_atr3_open", "native_atr0_open",
+    "sr_unrouted", "tp_unrouted", "br_unrouted",
+    "tp_without_pullback", "tp_without_touch", "tp_without_slow_hold",
+    "tp_without_body", "tp_without_location", "tp_without_reclaim",
+    "v1_trend_pullback", "v1_range_rejection", "v1_breakout_momentum"
+  ],
+  "features": "64 contiguous closed M5 bars; frozen v1 native Market/Forecast. No entry-bar high/low/close in features.",
+  "baseline_parity": "All 47754 baseline/no-floor native rows must match archived v1 scanner output before economic evaluation",
+  "native_proxies": "atr3 lead1 enters anchor+300; atr3/atr0 open enter anchor. Native confirmation, LOCK, tick freshness, news, permissions and risk not simulated.",
+  "unrouted": "ATR minimum0, maximum30, shock2.5 and overlap protection retained. SR1 forced RANGE; TP1/BR1 forced ORDERLY/EXPANSION only when native baselineFastEMA-baselineSlowEMA and baselineFastSlope agree in sign. Frozen Forecast then checks all original setup conditions. This introduces an explicit EMA direction convention outside routed regimes; it is not a pure routing-only causal experiment.",
+  "tp_ablation": "Same EMA direction, ATR0/max30/shock/overlap and TP1 contract as tp_unrouted; remove exactly one of six conjunctive trigger conditions. Conditions: pullback, touch, slow_hold, body, location, reclaim. Not recommended operational policies and not estimates of causal trading benefit.",
+  "v1_hypotheses": "Reuse exact three fixed closed-bar rules of v1; no changes after prior results",
+  "atr_context": "ATR14 relative to median of daily mean ATR at same broker hour from last20 observed past days, minimum10 past days; current-day samples never enter baseline. Descriptive bands <=0.75, (0.75,1.25], >1.25 and UNKNOWN; no new volatility filter or chosen threshold.",
+  "binary": {
+    "entry": "MT4 Bid open at planned entry",
+    "expiry_minutes": 5,
+    "primary_payout": 0.82,
+    "sensitivity_payouts": [0.7, 0.82, 0.9],
+    "ties": "refund primary; report tie-as-loss sensitivity",
+    "missing_boundary": "UNAVAILABLE; no price interpolation",
+    "actual_platform_quotes_and_fills_available": false
+  },
+  "forex": {
+    "holds_minutes": [30, 60, 120],
+    "primary_hold_minutes": 60,
+    "entry": "BUY BidOpen+declared fixed spread; SELL BidOpen",
+    "stop": "max(1.5*closed signal ATR,6pips), rounded upward to0.00001; reject >30pips",
+    "take_profit_R": 2,
+    "paths": ["stop_first", "take_first"],
+    "primary_path": "stop_first",
+    "spread_pips": 0,
+    "roundtrip_combined_commission_and_slippage_pips": [0, 0.5, 1],
+    "cost_interpretation": "Sensitivity assumptions, not verified Exness Zero rates. Fees do not alter entry/exit paths; apply to each resolved sample. Historical spreads unknown, observed live zero is not historical proof. Swap not simulated.",
+    "exit_order": "Observed open stop then open take, then deadline at observed open; otherwise intrabar barriers under both declared orders. Stop gap at adverse observed price; favourable take capped. Missing interval => UNAVAILABLE unless prior bar already resolved exit.",
+    "exit_time_precision": "Intrabar exit timestamp is upper M5 boundary, exit_bar records containing bar. No exact tick timing inferred.",
+    "sampling": ["all_entries_overlapping_diagnostics", "one_position_per_model_hold_path"],
+    "one_position": "Select candidate entries strictly after exit_bar of previously accepted sample; no new entry on bar occupied at its open; unavailable gap/end retains exclusion. No aggregate multi-model portfolio or USD equity.",
+    "paired_holds": "Same model/anchor/direction and path, requiring all3 holds RESOLVED; report paired60minus30 and120minus60. This is a diagnostic overlapping cohort, not independent trades or portfolio returns.",
+    "trajectory_labels": "Independent complete contiguous price trajectory through each deadline, ignoring exits: directional endpoint, gross markoutR, MFE/MAE over whole horizon. These may include prices AFTER a simulated exit and are never entry features or achievable realised P&L.",
+    "not_simulated": ["native structuralSL", "break_even", "trailing", "news", "risk_caps", "native_tick_guards", "terminal_or_broker_execution"]
+  },
+  "statistics": {
+    "weekly_block_bootstrap_reps": 2000,
+    "seed": 20261029,
+    "ci": "descriptive95pct, unadjusted for multiple comparisons; no significance or selection claim",
+    "retrospective_periods": ["2026-02-17/2026-04-30", "2026-05-01/2026-07-31", "2026-08-01/2026-10-28"],
+    "breakdowns": ["calendar_month", "retrospective_period", "brokerUTC0_session_provisional", "atr_context_band"],
+    "session_offset_sensitivity_minutes": [-60, 0, 60],
+    "small_groups": "Descriptive only; no minimum-frequency strategy optimisation",
+    "multiple_comparisons": "15 models x3holds x2paths x3fees x2sampling=540 FX summaries,45 BO payout summaries plus descriptive and paired contrasts. No best-cell selection."
+  },
+  "interpretation": "Positive gross/known-history references require verified costs, native tick/platform validation and genuinely new forward data. Negative proxies do not prove full EA losses. Holding limit is a hypothesis, not forecast guarantee. No operating preset changes."
+}
