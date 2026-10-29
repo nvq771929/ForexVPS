@@ -1,13 +1,22 @@
 {
   "contract": "EA_STRATEGY_REVIEW_V1",
   "stage": "EXPLORATORY_OHLC_REFERENCE_SCREEN_NOT_NATIVE_EA_BACKTEST",
-  "scope": ["BinaryOption_MT4_reference", "Forex_fixed_bracket_reference"],
+  "scope": [
+    "BinaryOption_MT4_reference",
+    "Forex_fixed_bracket_reference"
+  ],
   "source_sha256": "af3bc3327806ee6ab2d8f92921b61b6e418f72646b49dd86a2155c8f02e5877c",
   "source": "User EURUSDz5.csv, broker M5 Bid OHLC, Feb-Oct2026",
   "history_already_examined_descriptively": true,
   "untouched_confirmatory_holdout_available": false,
   "protocol_frozen_before_this_round_economic_scores": true,
-  "models": ["legacy_atr3_lead1_proxy", "legacy_atr3_open_proxy", "trend_pullback", "range_rejection", "breakout_momentum"],
+  "models": [
+    "legacy_atr3_lead1_proxy",
+    "legacy_atr3_open_proxy",
+    "trend_pullback",
+    "range_rejection",
+    "breakout_momentum"
+  ],
   "native_proxy": "Frozen Market/Forecast candidate, not T+1/LOCK/tick eligibility/model/news/publication. Compare entry at anchor+300 versus anchor, same candidate.",
   "new_features": "Only64closed contiguous M5 bars before anchor; SMA20/50 exclude trigger, slow SMA slope over5bars; ATR14 arithmetic TR, priorATR excludes trigger; range levels prior24bars excluding trigger.",
   "new_common_filter": "0<ATR14<=30pips, trigger range<=2.5*priorATR; no lower ATR floor; baseline native retains3pip floor",
@@ -19,11 +28,21 @@
     "entry": "MT4 Bid bar open at planned entry, not Olymp fill",
     "expiry": "next contiguous M5 bar Bid open, 5min reference; not exact platform expiry tick",
     "primary_payout": 0.82,
-    "sensitivity_payouts": [0.70, 0.82, 0.90],
+    "sensitivity_payouts": [
+      0.7,
+      0.82,
+      0.9
+    ],
     "tie": "refund0 primary; tie-as-loss sensitivity",
     "position_rule": "one stake per5min per strategy; nonoverlapping entry-to-expiry intervals",
     "missing_boundary": "UNAVAILABLE, no interpolation",
-    "manual_latency_and_platform_quotes_available": false
+    "manual_latency_and_platform_quotes_available": false,
+    "not_simulated": [
+      "native confirmation/LOCK/quote guards",
+      "publication cooldown",
+      "manual fill latency",
+      "actual platform payout/settlement"
+    ]
   },
   "forex": {
     "entry": "long at BidOpen+fixedSpread, short at BidOpen; no lookahead fill",
@@ -32,19 +51,64 @@
     "max_hold_minutes": 60,
     "exit_sides": "long Bid OHLC; short reconstructed Ask OHLC=Bid+fixedSpread",
     "position_rule": "one position per strategy/scenario; no new entry on a bar occupied at its open",
-    "intrabar_ambiguity": ["stop_first", "take_first"],
+    "intrabar_ambiguity": [
+      "stop_first",
+      "take_first"
+    ],
     "gap_open": "adverse stop fill at observed open, favourable TP capped at target; missing M5 interval makes outcome UNAVAILABLE",
     "end_unfinished": "UNAVAILABLE_END",
     "costs": [
-      {"id":"spread_only", "spread_pips":1.0,"commission_roundtrip_pips":0.0,"slippage_roundtrip_pips":0.0},
-      {"id":"cost_addon", "spread_pips":1.0,"commission_roundtrip_pips":0.7,"slippage_roundtrip_pips":0.3},
-      {"id":"stress", "spread_pips":1.5,"commission_roundtrip_pips":0.7,"slippage_roundtrip_pips":0.6}
+      {
+        "id": "spread_only",
+        "spread_pips": 1.0,
+        "commission_roundtrip_pips": 0.0,
+        "slippage_roundtrip_pips": 0.0
+      },
+      {
+        "id": "cost_addon",
+        "spread_pips": 1.0,
+        "commission_roundtrip_pips": 0.7,
+        "slippage_roundtrip_pips": 0.3
+      },
+      {
+        "id": "stress",
+        "spread_pips": 1.5,
+        "commission_roundtrip_pips": 0.7,
+        "slippage_roundtrip_pips": 0.6
+      }
     ],
     "costs_are_declared_assumptions_not_broker_verification": true,
     "units": "R based on fixed initial stop distance; no balance compounding/lot sizing",
-    "not_simulated": ["native structural stop", "break_even", "trailing", "news", "daily risk/cooldown/margin caps", "terminal permissions", "tick3s guard", "broker execution"]
+    "not_simulated": [
+      "native structural stop",
+      "break_even",
+      "trailing",
+      "news",
+      "daily risk/cooldown/margin caps",
+      "terminal permissions",
+      "tick3s guard",
+      "broker execution"
+    ],
+    "price_quantum": 1e-05,
+    "stop_rounding": "ceil stop distance to whole5digit price quantum before2R target",
+    "primary_cost": "cost_addon",
+    "primary_ambiguity": "stop_first"
   },
-  "statistics": {"breakdowns":["month_broker","entry_session"],"uncertainty":"weekly_block_bootstrap_95pct","bootstrap_reps":2000,"seed":20261028},
+  "statistics": {
+    "breakdowns": [
+      "month_broker",
+      "entry_session"
+    ],
+    "uncertainty": "weekly_block_bootstrap_95pct",
+    "bootstrap_reps": 2000,
+    "seed": 20261028
+  },
   "session_mapping": "default brokerUTC0 provisional, pinned tzdata2026.4; also export offset+-60min label sensitivity; no session selection after outcomes",
-  "decision": "All results remain unvalidated. Positive proxies require tick/BO-platform, costs, retrospective time splits and genuinely new forward evidence; no promotion on this known history. Zero trade session alone does not prove bad strategy."
+  "decision": "All results remain unvalidated. Positive proxies require tick/BO-platform, costs, retrospective time splits and genuinely new forward evidence; no promotion on this known history. Zero trade session alone does not prove bad strategy.",
+  "multiple_comparisons": {
+    "primary_contracts": 10,
+    "all_model_sensitivity_streams": 45,
+    "no_promotion_or_familywise_significance_claim": true
+  },
+  "amendment_before_economic_scores": "Specify primary cost/path and price quantization before initial economic run; no outcome data inspected."
 }
