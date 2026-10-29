@@ -43,4 +43,6 @@ Kiểm thử bao gồm causality/prefix, chuẩn ATR chỉ dùng ngày quá kh�
 
 `coverage.csv`, `candidate_scan.csv`, `anchor_context.csv`, `signals.csv` mô tả việc hình thành ứng viên. `binary_*`, `forex_summary.csv`, `bracket_labels.csv`, `trajectory_*`, `paired_hold_*` và `breakdowns.csv` chứa kết quả tham chiếu; `session_offset_sensitivity.csv` kiểm tra cách gắn nhãn phiên. `run.json` lưu hash dữ liệu/code/protocol và phạm vi.
 
+`validate_results.py` đối chiếu từng tín hiệu của năm hợp đồng cũ, các nhãn kết quả 60 phút với đối chứng spread/phí 0, kiểm tra phí và cùng điểm vào. Nó xuất thêm `ablation_incremental_summary.csv`, bảng mô tả sau lượt chạy về riêng mẫu mới khi bỏ một điều kiện; đây không phải lựa chọn mô hình hoặc một phép thử xác nhận đã đăng ký trước. Báo cáo, kết quả và công cụ dựng báo cáo có số liệu của người dùng được giữ ngoài Git. Công cụ kiểm tra không sửa quy tắc hoặc nhãn đã chạy.
+
 Bootstrap95% theo tuần là mô tả chưa điều chỉnh nhiều phép thử. Kết quả dương cần chi phí xác minh, kiểm định đầy đủ tick/platform và dữ liệu tương lai mới. Kết quả âm của proxy cũng không chứng minh toàn bộ EA native thua lỗ.
