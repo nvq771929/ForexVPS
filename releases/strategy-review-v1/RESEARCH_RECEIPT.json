@@ -1,0 +1,17 @@
+{
+  "stage": "EXPLORATORY_OHLC_REFERENCE_SCREEN_NOT_NATIVE_EA_BACKTEST",
+  "archive": "Strategy_Review_V1_Tools.zip",
+  "sha256": "b7a5a589857cd30e5200f0c758144ab68eeee91794016f544f2cf7b035596ab8",
+  "entries": 11,
+  "manifest_verified": true,
+  "source_tests": 24,
+  "extracted_tests": 24,
+  "core_ea_or_presets_modified": false,
+  "model_training_or_activation": false,
+  "native_mt4_backtest_completed": false,
+  "bo_platform_backtest_completed": false,
+  "protocol_frozen_commit": "626f2b5ef909f70ae0ed71da06024eea43c1de90",
+  "protocol_detail_commit": "cf33aca",
+  "code_frozen_before_economic_scores_commit": "1915c38c7acbedccd285f20ed8e87d6b121a1160",
+  "raw_user_data_in_git": false
+}
