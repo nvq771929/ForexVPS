@@ -36,3 +36,5 @@ Trước khi tính kinh tế, scanner phải khớp 47.754 mốc v2 về ATR và
 Xuất toàn bộ 1.080 bảng Forex và 135 bảng BO, từng nhãn, số mẫu bị loại/không rõ kết quả, phân nhóm tháng/giai đoạn/phiên, và chênh lệch theo cùng điểm vào. Các chính sách bảo vệ có thể làm thay danh sách lệnh một vị thế; so sánh cặp riêng dùng cùng entry/SL nhưng có thể chồng lấn, không cộng thành lợi nhuận tài khoản.
 
 Ngưỡng phí hòa vốn mô tả là pip gộp bình quân của tập resolved với giả định chi phí pip cố định và quyết định không đổi; không là phí broker đã xác minh hoặc bảo đảm lợi nhuận. Bootstrap theo tuần 2.000 lần cho khoảng mô tả 95%, chưa điều chỉnh nhiều phép thử. Không chọn ô tốt nhất, không tự thay preset, không promote chiến lược từ lịch sử này.
+
+`audit.py` kiểm tra từng nhãn, phí, các so sánh cùng entry và đối chứng đã giao. Công cụ này không sửa kết quả. Mã dựng báo cáo và bảng bổ sung có số liệu người dùng được giữ ngoài Git.
