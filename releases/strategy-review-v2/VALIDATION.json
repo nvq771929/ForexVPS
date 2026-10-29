@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "c422f02e520a2de074c2f867cf8b2df0a315522229904adffc4d6ac0d3fbd346",
+  "extracted_tests_passed": 52,
+  "final_executable_dependency_files_byte_identical_to_tested_extraction": 13,
+  "only_packaging_changes_since_test": "README readability edits; private result renderer removed from source package",
+  "native_MetaEditor_compile": false,
+  "operating_EA_modified": false
+}
